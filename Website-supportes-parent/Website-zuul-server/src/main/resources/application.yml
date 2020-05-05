@@ -1,0 +1,21 @@
+server:
+  port: 9527
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/        #注册进eureka中
+  instance:
+    prefer-ip-address: true         #以真实ip注册
+
+spring:
+  application:
+    name: ZUUL-GATEWAY
+
+zuul:             #配置网关路由的路径
+  routes:
+    comment:        #路由名称随便起
+      path: /comment/**       #路由匹配的路径
+      serviceId: COMMENT-SERVICE        #路由对应的服务
+  #ignored-services: "*"         #所有的接口只能通过网关配置后才能访问
+  #prefix: /services             #所有的访问都要有这个前缀
