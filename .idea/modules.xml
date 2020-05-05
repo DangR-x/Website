@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Website.iml" filepath="$PROJECT_DIR$/Website.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-basic-parent/Website-basic-parent.iml" filepath="$PROJECT_DIR$/Website-basic-parent/Website-basic-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/Website-basic-utils.iml" filepath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/Website-basic-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-interface/Website-comment-interface.iml" filepath="$PROJECT_DIR$/Website-comment-parent/Website-comment-interface/Website-comment-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-parent.iml" filepath="$PROJECT_DIR$/Website-comment-parent/Website-comment-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/Website-comment-service.iml" filepath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/Website-comment-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-supportes-parent/Website-eureka-server/Website-eureka-server.iml" filepath="$PROJECT_DIR$/Website-supportes-parent/Website-eureka-server/Website-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-basic-parent/Website-springboot-starter/Website-springboot-starter.iml" filepath="$PROJECT_DIR$/Website-basic-parent/Website-springboot-starter/Website-springboot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-supportes-parent/Website-supportes-parent.iml" filepath="$PROJECT_DIR$/Website-supportes-parent/Website-supportes-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-supportes-parent/Website-zuul-server/Website-zuul-server.iml" filepath="$PROJECT_DIR$/Website-supportes-parent/Website-zuul-server/Website-zuul-server.iml" />
+    </modules>
+  </component>
+</project>

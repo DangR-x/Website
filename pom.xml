@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>xiongjunmiao.top</groupId>
-    <artifactId>DangWebsite</artifactId>
+    <artifactId>Website</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>

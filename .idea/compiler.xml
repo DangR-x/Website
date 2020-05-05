@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Website-basic-utils" />
+        <module name="Website-comment-interface" />
+        <module name="Website-comment-service" />
+        <module name="Website-eureka-server" />
+        <module name="Website-springboot-starter" />
+        <module name="Website-zuul-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="DangWebsite" target="1.8" />
+      <module name="Website-basic-parent" target="1.8" />
+      <module name="Website-basic-utils" target="1.8" />
+      <module name="Website-comment-interface" target="1.8" />
+      <module name="Website-comment-parent" target="1.8" />
+      <module name="Website-comment-service" target="1.8" />
+      <module name="Website-eureka-server" target="1.8" />
+      <module name="Website-springboot-starter" target="1.8" />
+      <module name="Website-supportes-parent" target="1.8" />
+      <module name="Website-zuul-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

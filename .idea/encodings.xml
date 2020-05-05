@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Website-basic-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Website-basic-parent/Website-basic-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Website-basic-parent/Website-springboot-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Website-comment-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Website-supportes-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Website-supportes-parent/Website-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Website-supportes-parent/Website-zuul-server" charset="UTF-8" />
+  </component>
+</project>
