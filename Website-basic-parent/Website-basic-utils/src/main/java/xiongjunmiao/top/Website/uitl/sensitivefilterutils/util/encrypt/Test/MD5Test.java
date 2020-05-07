@@ -1,7 +1,7 @@
-package xiongjunmiao.top.Website.utils.util.encrypt.Test;
+package xiongjunmiao.top.Website.sensitivefilterutils.util.encrypt.Test;
 
 import org.junit.Test;
-import xiongjunmiao.top.Website.utils.util.encrypt.MD5;
+import xiongjunmiao.top.Website.sensitivefilterutils.util.encrypt.MD5;
 
 import java.util.Random;
 
@@ -20,9 +20,9 @@ public class MD5Test {
     }
     @Test
     public void Test(){
+        //生成一个随机的int值，该值介于[0,n)的区间，也就是0到n之间的随机int值，包含0而不包含n。
         int i = new Random().nextInt(10);
-
-
     }
+
 
 }

@@ -1,6 +1,6 @@
-package xiongjunmiao.top.Website.utils.util;
+package xiongjunmiao.top.Website.sensitivefilterutils.util;
 
-import xiongjunmiao.top.Website.utils.util.exceptionutil.MyException;
+import xiongjunmiao.top.Website.sensitivefilterutils.util.exceptionutil.MyException;
 
 import java.util.ArrayList;
 import java.util.List;

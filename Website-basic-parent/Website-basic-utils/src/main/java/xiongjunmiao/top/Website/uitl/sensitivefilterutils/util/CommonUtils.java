@@ -1,4 +1,4 @@
-package xiongjunmiao.top.Website.utils.util;
+package xiongjunmiao.top.Website.sensitivefilterutils.util;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang.RandomStringUtils;
