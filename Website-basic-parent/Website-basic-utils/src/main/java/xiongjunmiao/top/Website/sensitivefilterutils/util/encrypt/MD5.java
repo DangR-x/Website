@@ -32,14 +32,22 @@ package xiongjunmiao.top.Website.utils.util.encrypt;
 	   }
 	   return s;
 	 }
-	 
+
+		/**
+		 *
+		 * @param key   原始密码
+		 * @param encryptSource  加密过后的密码
+		 * @return
+		 */
 	 public static boolean validateMD5(String key, String encryptSource){
 		 return encryptSource.equals(MD5.getMD5(key));
 	 }
-	 
+
+
 	 public static String getRandomCode(int length){
 		 String s = "";
 		 for(int i=0;i<length;i++)
+		 	//生成一个随机数,该值介于[0,n)的区间，也就是0到n之间的随机int值，包含0而不包含n
 		 s+=(new java.util.Random()).nextInt(10);
 		 return s;
 	 }

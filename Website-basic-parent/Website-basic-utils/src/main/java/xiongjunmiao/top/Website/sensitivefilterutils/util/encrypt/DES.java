@@ -12,7 +12,7 @@ public class DES {
     private static final String APP_PASSWORD_CRYPT_KEY = "C670$^871cd#!kj028@66Y*&QKJ6Dyq%";
     private final static String ALGORITHM = "DES";
     public static void main(String[] args) throws Exception {
-        String text = "nixianhua";
+        String text = "好日子";
         String str = DES.encrypt(text);
         System.out.println("enstr: " + str);
         str = DES.decrypt(str);
