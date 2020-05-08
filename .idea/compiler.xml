@@ -16,6 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="DangWebsite" target="1.8" />
+      <module name="Website" target="1.8" />
       <module name="Website-basic-parent" target="1.8" />
       <module name="Website-basic-utils" target="1.8" />
       <module name="Website-comment-interface" target="1.8" />
