@@ -1,69 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c15981d-2929-4f4b-b7ac-9b01e3ae9585" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/target/classes/META-INF/Website-basic-utils.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/TokenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/UrlMatchingUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/WebTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/WebTokenProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/encryptionutils/AESCipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/encryptionutils/Base64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/encryptionutils/H5AESCipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/encryptionutils/HexUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/request/RequestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/request/UserInfoUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/response/ResponseEnums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/response/ResponseType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/response/RestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/response/RestResponseGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/springinit/CommentInfoCommandLineRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/AppUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/BaseUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/IdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/target/classes/META-INF/Website-comment-service.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/target/classes/xiongjunmiao/top/Website/uitl/requestBodyAdvice/AsRequestBodyAdvice$MyHttpInputMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/target/classes/xiongjunmiao/top/Website/uitl/requestBodyAdvice/AsRequestBodyAdvice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/target/classes/xiongjunmiao/top/Website/uitl/sensitivefilterutils/AsFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/target/classes/xiongjunmiao/top/Website/uitl/sensitivefilterutils/AsRequest.class" afterDir="false" />
+    <list default="true" id="6c15981d-2929-4f4b-b7ac-9b01e3ae9585" name="Default" comment="token">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_redis_1_4_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/BaseVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/EntityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/Vo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-redis-interface/Website-redis-interface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-redis-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/Website-redis-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/RedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisRepostory/Imp/RedisRepostoryImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisRepostory/RedisRepostory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisService/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisService/impl/RedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisutil/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-tool-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-tool-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/Website-basic-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/Website-basic-utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/query/BaseQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/query/BaseQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/AjaxResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/AjaxResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/ArrayUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/BitStatesUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/BitStatesUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/ClassUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/ClassUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/CodeGenerateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/CodeGenerateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/CommonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/DateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/IntegerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/IntegerUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/LetterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/LetterUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/PageList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/PageList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/PropertiesHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/PropertiesHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/StrUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/StrUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/encrypt/DES.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/encrypt/DES.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/encrypt/MD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/encrypt/MD5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/encrypt/Test/MD5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/encrypt/Test/MD5Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-comment-interface/Website-comment-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-interface/Website-comment-interface.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-comment-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-comment-interface/src/main/java/xiongjunmiao/top/Website/domain/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-interface/src/main/java/xiongjunmiao/top/Website/domain/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-comment-interface/target/classes/xiongjunmiao/top/Website/domain/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-interface/target/classes/xiongjunmiao/top/Website/domain/Comment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/Website-comment-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/Website-comment-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/requestBodyAdvice/AsRequestBodyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/requestBodyAdvice/AsRequestBodyAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/target/classes/xiongjunmiao/top/Website/CommentServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/target/classes/xiongjunmiao/top/Website/CommentServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/target/classes/xiongjunmiao/top/Website/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/target/classes/xiongjunmiao/top/Website/controller/CommentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/TokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/TokenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Website-basic-parent/target/" />
@@ -75,6 +43,9 @@
     <ignored path="$PROJECT_DIR$/Website-comment-parent/target/" />
     <ignored path="$PROJECT_DIR$/Website-supportes-parent/target/" />
     <ignored path="$PROJECT_DIR$/Website-basic-parent/Website-springboot-starter/target/" />
+    <ignored path="$PROJECT_DIR$/Website-tool-parent/target/" />
+    <ignored path="$PROJECT_DIR$/Website-tool-parent/Website-redis-interface/target/" />
+    <ignored path="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,73 +53,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/request/UserInfoUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="947">
-              <caret line="98" column="47" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2991#2992#0" expanded="true" />
-                <element signature="e#3052#3053#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/springinit/CommentInfoCommandLineRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="33" column="50" lean-forward="true" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/request/RequestUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/service/Impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/mapper/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -170,22 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Website-comment-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/Website-basic-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/CommentServiceApplication.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-interface/src/main/java/xiongjunmiao/top/Website/domain/Comment.java" />
-        <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/utils/util/ArrayUtils.java" />
-        <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/utils/util/MyException.java" />
-        <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/utils/util/exceptionutil/MyException.java" />
-        <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/utils/util/StringUtils.java" />
-        <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/utils/IntegerUtils.java" />
-        <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/utils/util/IntegerUtils.java" />
-        <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/utils/util/CommonUtils.java" />
-        <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/utils/util/DateUtils.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/test/java/xiongjunmiao/top/Website/service/ICommentServiceTest.java" />
-        <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/utils/util/encrypt/MD5.java" />
-        <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/utils/util/encrypt/DES.java" />
-        <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/utils/util/encrypt/Test/MD5Test.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/utils/AsFilter.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/utils/AsRequest.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/sensitivefilterutils/AsRequest.java" />
@@ -202,12 +91,10 @@
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/WebTokenProperties.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/UrlMatchingUtils.java" />
         <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/StringUtils.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/TokenTest.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/response/RestResponse.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/response/ResponseType.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/response/ResponseEnums.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/response/RestResponseGenerator.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/WebTokenFilter.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/request/RequestUtils.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/Entity.java" />
         <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/pom.xml" />
@@ -216,11 +103,29 @@
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/BaseUser.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/IdGenerator.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/AppUser.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/service/UserService.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/springinit/CommentInfoCommandLineRunner.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/service/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/service/UserService.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/request/UserInfoUtils.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/springinit/CommentInfoCommandLineRunner.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/WebTokenFilter.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/EntityUtils.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/Vo.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/BaseVo.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/TokenTest.java" />
+        <option value="$PROJECT_DIR$/Website-tool-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/Website-tool-parent/Website-redis-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Wevsite/RedisApplication.java" />
+        <option value="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/RedisApplication.java" />
+        <option value="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisservice/RedisRepostory.java" />
+        <option value="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisService/RedisRepostory.java" />
+        <option value="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisService/Imp/RedisRepostoryImp.java" />
+        <option value="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisRepostory/Imp/RedisRepostoryImp.java" />
+        <option value="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisService/RedisService.java" />
+        <option value="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisService/impl/RedisServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisutil/RedisUtil.java" />
       </list>
     </option>
   </component>
@@ -261,47 +166,40 @@
             <path>
               <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-redis-interface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-redis-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-redis-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-service" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-redis-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-service" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-redis-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -309,8 +207,8 @@
             <path>
               <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-service" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-redis-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -319,8 +217,8 @@
             <path>
               <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-service" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-redis-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -330,8 +228,8 @@
             <path>
               <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-service" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-redis-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -342,204 +240,8 @@
             <path>
               <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="uitl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="uitl" type="462c0819:PsiDirectoryNode" />
-              <item name="webtokenFilter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="uitl" type="462c0819:PsiDirectoryNode" />
-              <item name="webtokenFilter" type="462c0819:PsiDirectoryNode" />
-              <item name="request" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="uitl" type="462c0819:PsiDirectoryNode" />
-              <item name="webtokenFilter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="uitl" type="462c0819:PsiDirectoryNode" />
-              <item name="webtokenFilter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="uitl" type="462c0819:PsiDirectoryNode" />
-              <item name="webtokenFilter" type="462c0819:PsiDirectoryNode" />
-              <item name="springinit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-supportes-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-supportes-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-zuul-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-supportes-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-zuul-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-supportes-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-zuul-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-supportes-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-zuul-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-supportes-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-zuul-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-supportes-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-zuul-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-supportes-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-zuul-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-supportes-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-zuul-server" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-redis-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -558,20 +260,23 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588910516394" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588933315764" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/utils/util" />
     <property name="last_opened_file_path" value="E:/897jiaojie/liaoqu_rest/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xiongjunmiao.top.Website.redisutil" />
+      <recent name="xiongjunmiao.top.Website.redisService.impl" />
+      <recent name="xiongjunmiao.top.Website.redisService" />
       <recent name="xiongjunmiao.top.Website.uitl.webtokenFilter.userdomain" />
       <recent name="xiongjunmiao.top.Website.uitl.webtokenFilter.request" />
-      <recent name="xiongjunmiao.top.Website.uitl.webtokenFilter.response" />
-      <recent name="xiongjunmiao.top.Website.uitl.webtokenFilter.encryptionutils" />
-      <recent name="xiongjunmiao.top.Website.uitl.webtokenFilter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -592,23 +297,9 @@
     </option>
     <option name="contentProportion" value="0.18851571" />
   </component>
-  <component name="RunManager" selected="Application.TokenTest">
+  <component name="RunManager" selected="JUnit.TokenTest.UUIDTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MD5Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xiongjunmiao.top.Website.uitl.sensitivefilterutils.util.encrypt.Test.MD5Test" />
-      <module name="Website-basic-utils" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xiongjunmiao.top.Website.uitl.sensitivefilterutils.util.encrypt.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -633,23 +324,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MD5Test.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Website-basic-utils" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xiongjunmiao.top.Website.uitl.sensitivefilterutils.util.encrypt.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xiongjunmiao.top.Website.uitl.sensitivefilterutils.util.encrypt.Test" />
-      <option name="MAIN_CLASS_NAME" value="xiongjunmiao.top.Website.uitl.sensitivefilterutils.util.encrypt.Test.MD5Test" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MD5Test.Test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Website-basic-utils" />
       <extension name="coverage">
@@ -661,6 +335,40 @@
       <option name="PACKAGE_NAME" value="xiongjunmiao.top.Website.uitl.sensitivefilterutils.util.encrypt.Test" />
       <option name="MAIN_CLASS_NAME" value="xiongjunmiao.top.Website.uitl.sensitivefilterutils.util.encrypt.Test.MD5Test" />
       <option name="METHOD_NAME" value="Test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokenTest.UUIDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Website-comment-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xiongjunmiao.top.Website.uitl.webtokenFilter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xiongjunmiao.top.Website.uitl.webtokenFilter" />
+      <option name="MAIN_CLASS_NAME" value="xiongjunmiao.top.Website.uitl.webtokenFilter.TokenTest" />
+      <option name="METHOD_NAME" value="UUIDTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokenTest.getEntity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Website-comment-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xiongjunmiao.top.Website.uitl.webtokenFilter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xiongjunmiao.top.Website.uitl.webtokenFilter" />
+      <option name="MAIN_CLASS_NAME" value="xiongjunmiao.top.Website.uitl.webtokenFilter.TokenTest" />
+      <option name="METHOD_NAME" value="getEntity" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -733,21 +441,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MD5Test" />
-      <item itemvalue="JUnit.MD5Test.Test" />
       <item itemvalue="JUnit.MD5Test.Test01" />
       <item itemvalue="Spring Boot.CommentServiceApplication" />
       <item itemvalue="Spring Boot.ZuulserverApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Application.TokenTest" />
+      <item itemvalue="JUnit.TokenTest.getEntity" />
+      <item itemvalue="JUnit.TokenTest.UUIDTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TokenTest.UUIDTest" />
+        <item itemvalue="JUnit.TokenTest.getEntity" />
         <item itemvalue="Application.TokenTest" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="JUnit.MD5Test.Test01" />
-        <item itemvalue="JUnit.MD5Test.Test" />
-        <item itemvalue="Application.MD5Test" />
       </list>
     </recent_temporary>
   </component>
@@ -763,7 +471,7 @@
       <updated>1588687977977</updated>
       <workItem from="1588687981236" duration="388000" />
       <workItem from="1588834226147" duration="13010000" />
-      <workItem from="1588899519955" duration="10030000" />
+      <workItem from="1588899519955" duration="16436000" />
     </task>
     <task id="LOCAL-00001" summary="advice">
       <created>1588899706059</created>
@@ -786,31 +494,50 @@
       <option name="project" value="LOCAL" />
       <updated>1588900814161</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="token">
+      <created>1588910762809</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588910762809</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MD5Test_Test - 2020.05.07 at 18h 41m 03s.xml">
-      <configuration name="MD5Test.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MD5Test_Test01 - 2020.05.07 at 18h 41m 19s.xml">
-      <configuration name="MD5Test.Test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MD5Test_Test01 - 2020.05.07 at 18h 41m 36s.xml">
-      <configuration name="MD5Test.Test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MD5Test_Test01 - 2020.05.07 at 18h 41m 56s.xml">
-      <configuration name="MD5Test.Test01" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MD5Test_Test01 - 2020.05.07 at 18h 42m 25s.xml">
       <configuration name="MD5Test.Test01" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MD5Test_Test01 - 2020.05.07 at 18h 42m 47s.xml">
       <configuration name="MD5Test.Test01" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TokenTest_getEntity - 2020.05.08 at 17h 00m 49s.xml">
+      <configuration name="TokenTest.getEntity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TokenTest_getEntity - 2020.05.08 at 17h 01m 43s.xml">
+      <configuration name="TokenTest.getEntity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TokenTest_getEntity - 2020.05.08 at 17h 02m 59s.xml">
+      <configuration name="TokenTest.getEntity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TokenTest_getEntity - 2020.05.08 at 17h 03m 22s.xml">
+      <configuration name="TokenTest.getEntity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TokenTest_getEntity - 2020.05.08 at 17h 08m 15s.xml">
+      <configuration name="TokenTest.getEntity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TokenTest_getEntity - 2020.05.08 at 17h 08m 32s.xml">
+      <configuration name="TokenTest.getEntity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TokenTest_UUIDTest - 2020.05.08 at 17h 22m 00s.xml">
+      <configuration name="TokenTest.UUIDTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TokenTest_UUIDTest - 2020.05.08 at 17h 22m 16s.xml">
+      <configuration name="TokenTest.UUIDTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23428000" />
+    <option name="totallyTimeSpent" value="29834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -827,7 +554,7 @@
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24860647" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22185062" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -854,7 +581,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="Maven" order="10" weight="0.3296" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.28426668" />
       <window_info anchor="right" id="aiXcoder" order="11" />
     </layout>
   </component>
@@ -864,151 +591,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="advice" />
     <MESSAGE value="exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="exception" />
+    <MESSAGE value="token" />
+    <option name="LAST_COMMIT_MESSAGE" value="token" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="170" column="4" selection-start-line="170" selection-start-column="4" selection-end-line="170" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/IntegerUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3073">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.0.1/commons-lang3-3.0.1-sources.jar!/org/apache/commons/lang3/time/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/CommonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1673">
-          <caret line="494" column="69" lean-forward="true" selection-start-line="494" selection-start-column="69" selection-end-line="494" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/ArrayUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="168" column="63" selection-start-line="168" selection-start-column="63" selection-end-line="168" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-basic-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="644" column="9" lean-forward="true" selection-start-line="644" selection-start-column="9" selection-end-line="644" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/test/java/xiongjunmiao/top/Website/service/ICommentServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/encrypt/DES.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2021">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-interface/src/main/java/xiongjunmiao/top/Website/domain/Subscriber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/encrypt/MD5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-700">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-interface/src/main/java/xiongjunmiao/top/Website/domain/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/controller/SubscriberController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/CommentServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-supportes-parent/Website-zuul-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/AsFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/AsRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/requestBodyAdvice/AsRequestBodyAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/controller/CommentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -1062,16 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/TokenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/Respones.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1106,18 +682,6 @@
           <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/WebTokenFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1143">
-          <caret line="94" column="93" selection-start-line="94" selection-start-column="93" selection-end-line="94" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1167,78 +731,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret column="64" selection-start-column="64" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/BaseUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/IdGenerator.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/AppUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/request/RequestUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/service/Impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1252,14 +751,247 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/request/UserInfoUtils.java">
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="947">
-          <caret line="98" column="47" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
+        <state relative-caret-position="196">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2991#2992#0" expanded="true" />
-            <element signature="e#3052#3053#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/request/UserInfoUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2436#2437#0" expanded="true" />
+            <element signature="e#2488#2489#0" expanded="true" />
+            <element signature="e#2918#2919#0" expanded="true" />
+            <element signature="e#2977#2978#0" expanded="true" />
+            <element signature="e#3043#3044#0" expanded="true" />
+            <element signature="e#3098#3099#0" expanded="true" />
+            <element signature="e#3152#3153#0" expanded="true" />
+            <element signature="e#3188#3189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/WebTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2067">
+          <caret line="96" column="93" selection-start-line="96" selection-start-column="93" selection-end-line="96" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/BaseUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/AppUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.8.0_151/src.zip!/java/lang/reflect/ParameterizedType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/uitl/sensitivefilterutils/util/ArrayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/Vo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/BaseVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/TokenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/uitl/webtokenFilter/userdomain/EntityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-tool-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-redis-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="38" column="107" lean-forward="true" selection-start-line="33" selection-end-line="38" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-redis-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisRepostory/Imp/RedisRepostoryImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisRepostory/RedisRepostory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisService/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisutil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisService/impl/RedisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/redisutil/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-redis-service/src/main/java/xiongjunmiao/top/Website/RedisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1267,9 +999,81 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Website-redis-service</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33563218" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Java EE 6-Java EE 6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

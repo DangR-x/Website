@@ -12,6 +12,7 @@
         <module>Website-basic-parent</module>
         <module>Website-supportes-parent</module>
         <module>Website-comment-parent</module>
+        <module>Website-tool-parent</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
