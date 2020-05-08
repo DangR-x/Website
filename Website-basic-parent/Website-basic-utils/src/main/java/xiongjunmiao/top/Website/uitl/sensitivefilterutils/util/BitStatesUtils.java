@@ -1,4 +1,4 @@
-package xiongjunmiao.top.Website.sensitivefilterutils.util;
+package xiongjunmiao.top.Website.uitl.sensitivefilterutils.util;
 
 /**
  * 用户状态类，记录用户在平台使用系统中所有的状态。

@@ -1,7 +1,7 @@
-package xiongjunmiao.top.Website.sensitivefilterutils.util.encrypt.Test;
+package xiongjunmiao.top.Website.uitl.sensitivefilterutils.util.encrypt.Test;
 
 import org.junit.Test;
-import xiongjunmiao.top.Website.sensitivefilterutils.util.encrypt.MD5;
+import xiongjunmiao.top.Website.uitl.sensitivefilterutils.util.encrypt.MD5;
 
 import java.util.Random;
 

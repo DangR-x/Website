@@ -22,14 +22,13 @@ public class AsRequestBodyAdvice implements RequestBodyAdvice {
     @Override
     public boolean supports(MethodParameter methodParameter, Type type, Class<? extends HttpMessageConverter<?>> aClass) {
         //这里设置成false 它就不会再走这个类了
-        return true;
+        return false;
     }
 
     @Override
     public HttpInputMessage beforeBodyRead(HttpInputMessage httpInputMessage, MethodParameter methodParameter, Type type, Class<? extends HttpMessageConverter<?>> aClass) throws IOException {
         StringBuilder stringBuilder = new StringBuilder();
         BufferedReader bufferedReader = null;
-
         try {
             //这个request其实就是入参 可以从这里获取流
             //入参放在HttpInputMessage里面  这个方法的返回值也是HttpInputMessage

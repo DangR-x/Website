@@ -1,4 +1,4 @@
-package xiongjunmiao.top.Website.sensitivefilterutils.util.encrypt;
+package xiongjunmiao.top.Website.uitl.sensitivefilterutils.util.encrypt;
 
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;

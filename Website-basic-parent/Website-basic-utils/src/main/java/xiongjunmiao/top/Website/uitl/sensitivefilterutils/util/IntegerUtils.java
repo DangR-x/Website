@@ -1,6 +1,6 @@
-package xiongjunmiao.top.Website.sensitivefilterutils.util;
+package xiongjunmiao.top.Website.uitl.sensitivefilterutils.util;
 
-import xiongjunmiao.top.Website.sensitivefilterutils.util.exceptionutil.MyException;
+import xiongjunmiao.top.Website.uitl.sensitivefilterutils.util.exceptionutil.MyException;
 
 /**
  * @author qiaomengnan

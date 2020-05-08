@@ -1,4 +1,4 @@
-package xiongjunmiao.top.Website.sensitivefilterutils.util;
+package xiongjunmiao.top.Website.uitl.sensitivefilterutils.util;
 
 //Ajax请求响应对象的类
 public class AjaxResult {

@@ -1,4 +1,4 @@
-package xiongjunmiao.top.Website.sensitivefilterutils.util.encrypt;
+package xiongjunmiao.top.Website.uitl.sensitivefilterutils.util.encrypt;
 	/**
 	 * 传入参数：一个字节数组
 	 * 传出参数：字节数组的 MD5 结果字符串

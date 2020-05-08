@@ -17,6 +17,16 @@ spring:
     url: jdbc:mysql:///website-comment?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
     username: root
     password: 123456
+  #thymeleaf:
+    #mode: HTML5         #设置html页面版本
+    #encoding: utf-8
+    #servlet:
+      #content-type: text/html
+    #cache: false        #开发时关闭缓存,不然没法看到实时页面
+  #mvc:
+    #static-path-pattern: /**        # static 文件夹下的静态文件访问路径
+
+
 mybatis:
   mapper-locations: classpath*:xiongjunmiao/top/Website/mapper/*Mapper.xml        #mapper文件的位置
   type-aliases-package: xiongjunmiao.top.Website.domain,xiongjunmiao.top.Website.query      #将别名配置进mybatis在写mapper的时候就用别名就可以

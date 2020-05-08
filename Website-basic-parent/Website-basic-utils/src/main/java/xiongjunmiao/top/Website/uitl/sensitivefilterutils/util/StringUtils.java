@@ -1,6 +1,6 @@
-package xiongjunmiao.top.Website.sensitivefilterutils.util;
+package xiongjunmiao.top.Website.uitl.sensitivefilterutils.util;
 
-import xiongjunmiao.top.Website.sensitivefilterutils.util.exceptionutil.MyException;
+import xiongjunmiao.top.Website.uitl.sensitivefilterutils.util.exceptionutil.MyException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,7 +47,7 @@ public class StringUtils {
 
     /**
      * 返回是否不为null 或者trim后的空字符串
-     * @param param
+     * @param param  是""返回true,否则返回false
      * @return
      */
     public static boolean isNotTrimBlank(Object param) {

@@ -1,5 +1,8 @@
 package xiongjunmiao.top.Website.domain;
 
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotEmpty;
+
 /**
  * @Description TODO
  * @Author dangran
@@ -9,6 +12,17 @@ package xiongjunmiao.top.Website.domain;
 
 public class Comment {
 
+
+    /**
+     * 用于controller接收参数的验证:BindingResult
+     * @NotEmpty(message="id不能为空")
+     * @Min(value = 18, message = "年龄必须大于18岁")
+     * @NotEmpty(message="hobbies不能为空")
+     * @NotBlank(message="账号不能为空")
+     * @Size(min=5,max=10,message="密码的长度应该在5和10之间")
+     * @Email(message="邮箱格式错误")
+     */
+    @Min(value = 18, message = "年龄必须大于18岁")
     private Long id;
     private String content;
     private Long parentId;
