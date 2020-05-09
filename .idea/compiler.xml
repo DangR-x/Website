@@ -10,6 +10,8 @@
         <module name="Website-comment-interface" />
         <module name="Website-comment-service" />
         <module name="Website-eureka-server" />
+        <module name="Website-MongDB-interface" />
+        <module name="Website-MongDB-service" />
         <module name="Website-redis-interface" />
         <module name="Website-redis-service" />
         <module name="Website-springboot-starter" />
@@ -25,6 +27,8 @@
       <module name="Website-comment-parent" target="1.8" />
       <module name="Website-comment-service" target="1.8" />
       <module name="Website-eureka-server" target="1.8" />
+      <module name="Website-MongDB-interface" target="1.8" />
+      <module name="Website-MongDB-service" target="1.8" />
       <module name="Website-redis-interface" target="1.8" />
       <module name="Website-redis-service" target="1.8" />
       <module name="Website-springboot-starter" target="1.8" />

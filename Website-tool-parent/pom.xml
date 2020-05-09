@@ -14,6 +14,8 @@
     <modules>
         <module>Website-redis-interface</module>
         <module>Website-redis-service</module>
+        <module>Website-MongDB-interface</module>
+        <module>Website-MongDB-service</module>
     </modules>
 
 

@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Website.iml" filepath="$PROJECT_DIR$/Website.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-tool-parent/Website-MongDB-interface/Website-MongDB-interface.iml" filepath="$PROJECT_DIR$/Website-tool-parent/Website-MongDB-interface/Website-MongDB-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-tool-parent/Website-MongDB-service/Website-MongDB-service.iml" filepath="$PROJECT_DIR$/Website-tool-parent/Website-MongDB-service/Website-MongDB-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-basic-parent/Website-basic-parent.iml" filepath="$PROJECT_DIR$/Website-basic-parent/Website-basic-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/Website-basic-utils.iml" filepath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/Website-basic-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-interface/Website-comment-interface.iml" filepath="$PROJECT_DIR$/Website-comment-parent/Website-comment-interface/Website-comment-interface.iml" />

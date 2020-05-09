@@ -22,6 +22,7 @@ public class Comment {
      * @Size(min=5,max=10,message="密码的长度应该在5和10之间")
      * @Email(message="邮箱格式错误")
      */
+
     @Min(value = 18, message = "年龄必须大于18岁")
     private Long id;
     private String content;

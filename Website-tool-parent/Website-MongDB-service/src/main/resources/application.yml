@@ -1,0 +1,18 @@
+server:
+  port: 6002
+
+spring:
+  application:
+    name: MONGDB-SERVICE
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: mall-port
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/        #注册进eureka中
+  instance:
+    prefer-ip-address: true         #以真实ip注册
