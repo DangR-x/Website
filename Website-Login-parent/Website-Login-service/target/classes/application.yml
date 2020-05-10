@@ -1,0 +1,80 @@
+server:
+  port: 9002
+  servlet:
+    context-path: /
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/        #注册进eureka中
+  instance:
+    prefer-ip-address: true         #以真实ip注册
+
+spring:
+  application:
+    name: LOGIN-SERVICE
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver         #mysql 8.0以后版本的，与之前的有所不同
+    url: jdbc:mysql:///website-comment?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+  #thymeleaf:
+    #mode: HTML5         #设置html页面版本
+    #encoding: utf-8
+    #servlet:
+      #content-type: text/html
+    #cache: false        #开发时关闭缓存,不然没法看到实时页面
+  #mvc:
+    #static-path-pattern: /**        # static 文件夹下的静态文件访问路径
+
+
+mybatis:
+  mapper-locations: classpath*:xiongjunmiao/top/Website/mapper/*Mapper.xml        #mapper文件的位置
+  type-aliases-package: xiongjunmiao.top.Website.domain,xiongjunmiao.top.Website.query      #将别名配置进mybatis在写mapper的时候就用别名就可以
+# myBatis分页插件
+pagehelper:
+  helperDialect: mysql
+  reasonable: false
+  supportMethodsArguments: true
+  params: count=countSql
+
+
+
+logging:
+  level:
+    xiongjunmiao.top.Website: debug           #日志记录的级别
+  #file: D:/xxxxxx.xxx      #将日志记录再那个文件里面
+  #pattern:
+    #file: "%d{yyyy-MM-dd HH:mm:ss.SSS} ==== [%thread] ====  %-5level  %logger{50} - %msg%n"       #日志打印的格式
+
+
+web:
+  login:
+    user:
+      # 用于获取在request头部中存放的用户信息key  获取当前登录用户时使用
+      header: access-user
+  chain:
+    # 用于获取在request头部中存放本次请求唯一标识(UUID)key  打印log时使用
+    header: access-chain
+  token:
+    #存放在头部的token
+    header: token
+  #无需check的url
+  notAuthUrl: /app_user/login,/app_user/forgetPwd,/app_news/**,/app_user/register,/app_user/sendValidCode,/app_user/sendForgetPwdCode,/app_user/sendRegisterCode,/profile/**,/common/**,/xieyi/**,/kftPay/**,/yiBaoPay/**
+  #不需要记录到日志表中的url
+  notLogUrl: /sys_user_info/findSysUserInfoVosByPage
+  #不需要token续时的url
+  notTokenTimeUrl: /sys_user_info/findSysUserInfoVosByPage
+  # 是否开启加密
+  encrypt:
+    enabled: false
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            # 客户端请求服务端方法时,服务端超过响应超时时间 10分钟
+            timeoutInMilliseconds: 600000 #缺省为1000

@@ -10,6 +10,8 @@
         <module name="Website-comment-interface" />
         <module name="Website-comment-service" />
         <module name="Website-eureka-server" />
+        <module name="Website-Login-interface" />
+        <module name="Website-Login-service" />
         <module name="Website-MongDB-interface" />
         <module name="Website-MongDB-service" />
         <module name="Website-redis-interface" />
@@ -27,6 +29,9 @@
       <module name="Website-comment-parent" target="1.8" />
       <module name="Website-comment-service" target="1.8" />
       <module name="Website-eureka-server" target="1.8" />
+      <module name="Website-Login-interface" target="1.8" />
+      <module name="Website-Login-parent" target="1.8" />
+      <module name="Website-Login-service" target="1.8" />
       <module name="Website-MongDB-interface" target="1.8" />
       <module name="Website-MongDB-service" target="1.8" />
       <module name="Website-redis-interface" target="1.8" />

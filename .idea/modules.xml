@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Website.iml" filepath="$PROJECT_DIR$/Website.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-interface/Website-Login-interface.iml" filepath="$PROJECT_DIR$/Website-Login-parent/Website-Login-interface/Website-Login-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-parent.iml" filepath="$PROJECT_DIR$/Website-Login-parent/Website-Login-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/Website-Login-service.iml" filepath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/Website-Login-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-tool-parent/Website-MongDB-interface/Website-MongDB-interface.iml" filepath="$PROJECT_DIR$/Website-tool-parent/Website-MongDB-interface/Website-MongDB-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-tool-parent/Website-MongDB-service/Website-MongDB-service.iml" filepath="$PROJECT_DIR$/Website-tool-parent/Website-MongDB-service/Website-MongDB-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-basic-parent/Website-basic-parent.iml" filepath="$PROJECT_DIR$/Website-basic-parent/Website-basic-parent.iml" />

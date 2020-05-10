@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>员工管理</title>
+    <link rel="stylesheet" type="text/css" href="/js/elementui/index.css"/>
+    <script type="text/javascript" src="/js/vue/vue.js"></script>
+    <script type="text/javascript" src="/js/elementui/index.js"></script>
+    <script type="text/javascript" src="/js/axios/axios.js"></script>
+</head>
+<body>
+
+    <div id="app">
+
+        <el-button type="primary" v-on:click="leave">离职</el-button>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        状态:
+        <el-select v-model="value" @change="query" clearable placeholder="请选择">
+            <el-option
+                    v-for="item in options"
+                    :key="item.value"
+                    :label="item.label"
+                    :value="item.value">
+            </el-option>
+        </el-select>
+
+        <el-table
+                ref="employeeTable"
+                :data="employees"
+                tooltip-effect="dark"
+                style="width: 100%"
+                @selection-change="selsChange">
+
+            <el-table-column
+                    type="selection"
+                    width="55">
+            </el-table-column>
+
+            <el-table-column
+                    prop="username"
+                    label="姓名"
+                    width="200">
+            </el-table-column>
+
+            <el-table-column
+                    prop="gender"
+                    label="性别"
+                    width="200">
+                <template slot-scope="scope">
+                    <span v-if="scope.row.gender!=null && scope.row.gender==0">女</span>
+                    <span v-else>男</span>
+                </template>
+            </el-table-column>
+
+            <el-table-column
+                    prop="entrytime"
+                    label="入职时间"
+                    width="200"
+                    :formatter="formatEntrytime">
+            </el-table-column>
+
+            <el-table-column
+                    prop="resignationtime"
+                    label="离职时间"
+                    width="200"
+                    :formatter="formatResignationtime">
+            </el-table-column>
+
+            <el-table-column
+                    prop="state"
+                    label="状态"
+                    width="200">
+                <template slot-scope="scope">
+                    <span v-if="scope.row.state!=null && scope.row.state==0">离职</span>
+                    <span v-else>在职</span>
+                </template>
+            </el-table-column>
+
+        </el-table>
+
+        <div style="text-align: right;margin-top: 10px;">
+            <el-pagination
+                    background
+                    layout="prev, pager, next"
+                    :total="total"
+                    :page-size="pageSize"
+                    :current-page="pageNum"
+                    @current-change="pageSelect">
+            </el-pagination>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+        let app = new Vue({
+           el:"#app",
+           data:{
+               total:0,
+               pageSize:5,
+               pageNum:1,
+               employees:[],
+               sels:[],
+               options: [{
+                   value: 0,
+                   label: '离职'
+               }, {
+                   value: 1,
+                   label: '在职'
+               }],
+               value: ''
+           },
+           methods:{
+               pageSelect(currentPage){
+                   this.pageNum = currentPage;
+                   //分页查询用户
+                   this.loadEmployees();
+
+               },
+               query(){
+                   this.pageNum = 1;
+                   this.loadEmployees();
+               },
+               loadEmployees(){
+                   //创建一个参数对象
+                   var param = {};
+                   param.page = this.pageNum;
+                   param.rows = this.pageSize;
+                   param.state = this.value;
+                   axios.get("/employee/page",{
+                       params:param
+                   }).then((res)=>{
+                       this.total = res.data.total;
+                       this.employees = res.data.rows;
+                   })
+               },
+               selsChange(sels) {
+                   this.sels = sels;
+               },
+               formatEntrytime(row,column){
+                   return this.formatTime(row.entrytime)
+               },
+               formatResignationtime(row,column){
+                   return this.formatTime(row.resignationtime)
+               },
+               //时间显示转换
+               formatTime: function (time) {
+                   if(!time){
+                       return null;
+                   }
+                   //js如果将一个时间戳格式化成固定格式的日期和时间
+                   let now = new Date(time);
+                   var year=now.getFullYear();
+                   var month=now.getMonth()+1;//月份从0开始
+                   var date=now.getDate();//getDate是获取一个月中的第几天，getDay获取一周中的第几天（第一天是 1 = Sunday）
+                   var hour=now.getHours();
+                   var minute=now.getMinutes();
+                   var second=now.getSeconds();
+                   return year+"-"+this.formatNum(month)+"-"+this.formatNum(date);
+               },
+               formatNum(num){
+                   if(num<10){
+                       return "0" + num;
+                   }
+                   return num;
+               }
+           },
+           mounted(){
+               this.loadEmployees();
+           }
+        })
+    </script>
+
+</body>
+</html>
