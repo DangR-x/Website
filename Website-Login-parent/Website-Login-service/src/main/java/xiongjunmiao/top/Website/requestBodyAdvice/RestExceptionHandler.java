@@ -36,7 +36,7 @@ import java.util.Set;
  * @Description: Rest异常处理
  * @date 2017/10/30
  */
-@RefreshScope
+@RefreshScope    //配置文件自动刷新
 @ControllerAdvice(annotations = RestController.class)
 public class RestExceptionHandler {
 

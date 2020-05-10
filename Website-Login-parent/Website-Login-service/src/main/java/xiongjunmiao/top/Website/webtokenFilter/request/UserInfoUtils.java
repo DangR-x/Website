@@ -13,10 +13,11 @@ import javax.servlet.http.HttpServletRequest;
 import java.net.URLDecoder;
 
 /**
- * @author qiaomengnan
- * @ClassName: UserInfoUtil
+ * @Description TODO
+ * @Author DangR-X
+ * @Date 2020/5/11 0:15
+ * @Version v1.0
  * @Description: 对当前登录用户进行操作
- * @date 2018/1/7
  */
 @Slf4j
 @Component
@@ -29,11 +30,14 @@ public class UserInfoUtils {
 
     public static Object getUser(Class entityClass) {
         String userInfoStr = getUserStr();
+        //如果是空返回true
         if (StringUtils.isTrimBlank(userInfoStr)) {
             return null;
         }
         try {
+            //URLDecoder.decode() 对url进行解码，注意其主要原因是% 在URL中是特殊字符，需要特殊转义一下url = url.replaceAll("%(?![0-9a-fA-F]{2})", "%");
             userInfoStr = URLDecoder.decode(userInfoStr, "utf-8");
+            //将json字符串转为javabean对象 配合JSON.parseObject不会将首字母转为小写
             Object userInfo = JSON.toJavaObject(JSON.parseObject(userInfoStr), entityClass);
             return userInfo;
         } catch (Exception ex) {
@@ -46,6 +50,9 @@ public class UserInfoUtils {
     public static String getUserStr() {
         HttpServletRequest request = RequestUtils.getRequest();
         if (request != null) {
+            //WebTokenProperties.loginUserHeader()取到的是配置文件中的 web.login.user.hander:access-user
+            //request.getAttribute() 取出请求里面对应的value
+            //StringUtils.getValue() 将object类型转为string类型
             String loginUser = StringUtils.getValue(request.getAttribute(WebTokenProperties.loginUserHeader()));
             return loginUser;
         }

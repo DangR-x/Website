@@ -7,10 +7,10 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author qiaomengnan
- * @ClassName: RequestUtils
- * @Description:
- * @date 2018/3/27
+ * @Description TODO
+ * @Author DangR-X
+ * @Date 2020/5/11 0:15
+ * @Version v1.0
  */
 public class RequestUtils {
 
