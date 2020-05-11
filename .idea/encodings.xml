@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Website-Login-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-interface" charset="UTF-8" />
@@ -17,6 +17,8 @@
     <file url="file://$PROJECT_DIR$/Website-tool-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Website-tool-parent/Website-MongDB-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Website-tool-parent/Website-MongDB-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Website-tool-parent/Website-rabbitMQ-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Website-tool-parent/Website-rabbitMQ-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Website-tool-parent/Website-redis-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Website-tool-parent/Website-redis-service" charset="UTF-8" />
   </component>

@@ -16,6 +16,8 @@
         <module>Website-redis-service</module>
         <module>Website-MongDB-interface</module>
         <module>Website-MongDB-service</module>
+        <module>Website-rabbitMQ-interface</module>
+        <module>Website-rabbitMQ-service</module>
     </modules>
 
 

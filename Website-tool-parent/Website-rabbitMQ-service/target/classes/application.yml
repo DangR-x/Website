@@ -1,0 +1,13 @@
+server:
+  port: 6003
+
+spring:
+  application:
+    name: MONGDB-SERVICE
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/        #注册进eureka中
+  instance:
+    prefer-ip-address: true         #以真实ip注册

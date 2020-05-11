@@ -14,6 +14,8 @@
         <module name="Website-Login-service" />
         <module name="Website-MongDB-interface" />
         <module name="Website-MongDB-service" />
+        <module name="Website-rabbitMQ-interface" />
+        <module name="Website-rabbitMQ-service" />
         <module name="Website-redis-interface" />
         <module name="Website-redis-service" />
         <module name="Website-springboot-starter" />
@@ -34,6 +36,8 @@
       <module name="Website-Login-service" target="1.8" />
       <module name="Website-MongDB-interface" target="1.8" />
       <module name="Website-MongDB-service" target="1.8" />
+      <module name="Website-rabbitMQ-interface" target="1.8" />
+      <module name="Website-rabbitMQ-service" target="1.8" />
       <module name="Website-redis-interface" target="1.8" />
       <module name="Website-redis-service" target="1.8" />
       <module name="Website-springboot-starter" target="1.8" />

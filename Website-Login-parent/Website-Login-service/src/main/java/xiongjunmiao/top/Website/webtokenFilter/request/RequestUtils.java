@@ -27,8 +27,8 @@ public class RequestUtils {
      * @Description:   获取访问的路由url
      * @return
      * @throws
-     * @author qiaomengnan
-     * @date 2018/03/27 02:46:31
+     * @Author DangR-X
+     * @Date 2020/5/11 0:15
      */
     public static String getRequestUri(){
         HttpServletRequest request = getRequest();
@@ -42,8 +42,8 @@ public class RequestUtils {
      * @Description:   获取访问的完整url
      * @return
      * @throws
-     * @author qiaomengnan
-     * @date 2018/03/27 02:46:53
+     * @Author DangR-X
+     * @Date 2020/5/11 0:15
      */
     public static String getRequestUrl(){
         HttpServletRequest request = getRequest();

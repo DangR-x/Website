@@ -4,7 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Website.iml" filepath="$PROJECT_DIR$/Website.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-interface/Website-Login-interface.iml" filepath="$PROJECT_DIR$/Website-Login-parent/Website-Login-interface/Website-Login-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-interface/Website-Login-interface.iml" filepath="$PROJECT_DIR$/Website-Login-parent/Website-Login-interface/Website-Login-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-parent.iml" filepath="$PROJECT_DIR$/Website-Login-parent/Website-Login-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-parent.iml" filepath="$PROJECT_DIR$/Website-Login-parent/Website-Login-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/Website-Login-service.iml" filepath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/Website-Login-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/Website-Login-service.iml" filepath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/Website-Login-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-tool-parent/Website-MongDB-interface/Website-MongDB-interface.iml" filepath="$PROJECT_DIR$/Website-tool-parent/Website-MongDB-interface/Website-MongDB-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-tool-parent/Website-MongDB-service/Website-MongDB-service.iml" filepath="$PROJECT_DIR$/Website-tool-parent/Website-MongDB-service/Website-MongDB-service.iml" />
@@ -14,6 +17,8 @@
       <module fileurl="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-parent.iml" filepath="$PROJECT_DIR$/Website-comment-parent/Website-comment-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/Website-comment-service.iml" filepath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/Website-comment-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-supportes-parent/Website-eureka-server/Website-eureka-server.iml" filepath="$PROJECT_DIR$/Website-supportes-parent/Website-eureka-server/Website-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-tool-parent/Website-rabbitMQ-interface/Website-rabbitMQ-interface.iml" filepath="$PROJECT_DIR$/Website-tool-parent/Website-rabbitMQ-interface/Website-rabbitMQ-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-tool-parent/Website-rabbitMQ-service/Website-rabbitMQ-service.iml" filepath="$PROJECT_DIR$/Website-tool-parent/Website-rabbitMQ-service/Website-rabbitMQ-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-tool-parent/Website-redis-interface/Website-redis-interface.iml" filepath="$PROJECT_DIR$/Website-tool-parent/Website-redis-interface/Website-redis-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-tool-parent/Website-redis-service/Website-redis-service.iml" filepath="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/Website-redis-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-basic-parent/Website-springboot-starter/Website-springboot-starter.iml" filepath="$PROJECT_DIR$/Website-basic-parent/Website-springboot-starter/Website-springboot-starter.iml" />
