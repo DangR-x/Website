@@ -9,6 +9,8 @@
         <module name="Website-basic-utils" />
         <module name="Website-comment-interface" />
         <module name="Website-comment-service" />
+        <module name="Website-elasticSearch-interface" />
+        <module name="Website-elasticSearch-service" />
         <module name="Website-eureka-server" />
         <module name="Website-Login-interface" />
         <module name="Website-Login-service" />
@@ -30,6 +32,8 @@
       <module name="Website-comment-interface" target="1.8" />
       <module name="Website-comment-parent" target="1.8" />
       <module name="Website-comment-service" target="1.8" />
+      <module name="Website-elasticSearch-interface" target="1.8" />
+      <module name="Website-elasticSearch-service" target="1.8" />
       <module name="Website-eureka-server" target="1.8" />
       <module name="Website-Login-interface" target="1.8" />
       <module name="Website-Login-parent" target="1.8" />

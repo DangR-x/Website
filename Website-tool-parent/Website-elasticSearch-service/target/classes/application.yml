@@ -1,0 +1,18 @@
+server:
+  port: 6004
+
+spring:
+  application:
+    name: ES-SERVICE
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///mall?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+
+
+
+mybatis:
+  mapper-locations: classpath*:xiongjunmiao/top/Website/mapper/*Mapper.xml          #mapper.xml 文件位置
+  type-aliases-package: xiongjunmiao.top.Website.domain,xiongjunmiao.top.Website.query        #在xml文件中使用别名
