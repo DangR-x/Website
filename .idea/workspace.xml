@@ -2,47 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c15981d-2929-4f4b-b7ac-9b01e3ae9585" name="Default" comment="定时任务">
-      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-interface/src/main/java/xiongjunmiao/top/Website/domain/EsProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-interface/src/main/java/xiongjunmiao/top/Website/domain/EsProductAttributeValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-interface/src/main/java/xiongjunmiao/top/Website/domain/EsProductRelatedInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-interface/src/main/java/xiongjunmiao/top/Website/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/EsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/esutil/ElasticSearchConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/mapper/EsProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/repository/EsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/resources/xiongjunmiao/top/Website/mapper/EsProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/test/java/xiongjunmiao/top/Website/mapper/ProductMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/kapatchaconfig/CaptchaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/RepeatSubmit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/RepeatSubmitInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/RepeatWebMvcConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/SameUrlDataInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/util/CharsetKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/util/Convert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/util/JSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/util/ServletUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/util/StrFormatter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/Website-basic-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/Website-basic-utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-springboot-starter/Website-springboot-starter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-springboot-starter/Website-springboot-starter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-comment-interface/Website-comment-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-interface/Website-comment-interface.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/Website-comment-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/Website-comment-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-supportes-parent/Website-eureka-server/Website-eureka-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-supportes-parent/Website-eureka-server/Website-eureka-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-supportes-parent/Website-zuul-server/Website-zuul-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-supportes-parent/Website-zuul-server/Website-zuul-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-tool-parent/Website-MongDB-interface/Website-MongDB-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-tool-parent/Website-MongDB-interface/Website-MongDB-interface.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-tool-parent/Website-MongDB-service/Website-MongDB-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-tool-parent/Website-MongDB-service/Website-MongDB-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-tool-parent/Website-redis-interface/Website-redis-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-tool-parent/Website-redis-interface/Website-redis-interface.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/Website-redis-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-tool-parent/Website-redis-service/Website-redis-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-tool-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-tool-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/controller/AppUsercontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/controller/AppUsercontroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/requestBodyAdvice/AsResponseBodyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/requestBodyAdvice/AsResponseBodyAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/test/java/xiongjunmiao/top/Website/service/IAppUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/test/java/xiongjunmiao/top/Website/service/IAppUserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/sensitivefilterutils/util/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/sensitivefilterutils/util/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/esutil/ElasticSearchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/esutil/ElasticSearchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/test/java/xiongjunmiao/top/Website/mapper/ProductMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/test/java/xiongjunmiao/top/Website/mapper/ProductMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/target/test-classes/xiongjunmiao/top/Website/mapper/ProductMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/target/test-classes/xiongjunmiao/top/Website/mapper/ProductMapperTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Website-basic-parent/target/" />
@@ -86,77 +64,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/test/java/xiongjunmiao/top/Website/service/IAppUserServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="579">
+              <caret line="42" column="67" lean-forward="true" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/test/java/xiongjunmiao/top/Website/mapper/ProductMapperTest.java">
+        <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/controller/AppUsercontroller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2491">
-              <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+            <state relative-caret-position="-709">
+              <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/requestBodyAdvice/AsResponseBodyAdvice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/requestBodyAdvice/AsRequestBodyAdvice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/AppUserApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.6/elasticsearch-6.8.6.jar!/org/elasticsearch/action/get/GetRequest.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/mapper/EsProductMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/repository/EsRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/esutil/ElasticSearchConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -198,23 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/resources/xiongjunmiao/top/Website/mapper/AppUserMapper.xml" />
-        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/requestBodyAdvice/AsResponseBodyAdvice.java" />
-        <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/sensitivefilterutils/util/exceptionutil/MyException.java" />
-        <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/sensitivefilterutils/util/exceptionutil/MyRuntimeException.java" />
-        <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/sensitivefilterutils/util/exceptionutil/MyserviceException.java" />
-        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/webtokenFilter/response/ResponseFailEnums.java" />
-        <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/sensitivefilterutils/util/exceptionutil/MyRedisKeyNotFoundException.java" />
-        <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/sensitivefilterutils/util/RandomUtils.java" />
-        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/test/java/xiongjunmiao/top/Website/service/IAppUserServiceTest.java" />
-        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-interface/src/main/java/xiongjunmiao/top/Website/domain/AppUser.java" />
-        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/resources/templates/appuser.html" />
-        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/controller/AppUsercontroller.java" />
-        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/requestBodyAdvice/RestExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/webtokenFilter/resolver/LoginUserArgumentResolver.java" />
-        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/webtokenFilter/resolver/MyLoginUserArgumentResolver.java" />
-        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/webtokenFilter/annotation/AuthUserInfo.java" />
         <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/webtokenFilter/request/UserInfoUtils.java" />
         <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/webtokenFilter/request/RequestUtils.java" />
         <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/requestBodyAdvice/AsRequestBodyAdvice.java" />
@@ -231,7 +167,6 @@
         <option value="$PROJECT_DIR$/Website-tool-parent/Website-rabbitMQ-service/src/main/java/xiongjunmiao/top/Website/connectionutil/receiver/MsgReceiver.java" />
         <option value="$PROJECT_DIR$/Website-tool-parent/Website-rabbitMQ-service/src/main/java/xiongjunmiao/top/Website/connectionutil/producer/Mqproducer.java" />
         <option value="$PROJECT_DIR$/Website-tool-parent/Website-rabbitMQ-service/src/main/java/xiongjunmiao/top/Website/connectionutil/ConnectionUtil.java" />
-        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/pom.xml" />
         <option value="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/pom.xml" />
         <option value="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-interface/src/main/java/xiongjunmiao/top/Website/domain.java" />
         <option value="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-interface/src/main/java/xiongjunmiao/top/Website/domain/domain.java" />
@@ -245,10 +180,28 @@
         <option value="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/repository/EsReponstory.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/EsApplication.java" />
+        <option value="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/repository/EsRepository.java" />
         <option value="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/esutil/ElasticSearchConfig.java" />
         <option value="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/test/java/xiongjunmiao/top/Website/mapper/ProductMapperTest.java" />
-        <option value="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/repository/EsRepository.java" />
-        <option value="$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/RepeatWebMvcConfigurer.java" />
+        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/RepeatSubmit.java" />
+        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/ServletUtils.java" />
+        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/Convert.java" />
+        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/StringUtils.java" />
+        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/StrFormatter.java" />
+        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/util/Convert.java" />
+        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/util/CharsetKit.java" />
+        <option value="$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/sensitivefilterutils/util/StringUtils.java" />
+        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/util/ServletUtils.java" />
+        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/util/JSON.java" />
+        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/RepeatSubmitInterceptor.java" />
+        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/SameUrlDataInterceptor.java" />
+        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/kapatchaconfig/CaptchaConfig.java" />
+        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/controller/AppUsercontroller.java" />
+        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/requestBodyAdvice/AsResponseBodyAdvice.java" />
+        <option value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/test/java/xiongjunmiao/top/Website/service/IAppUserServiceTest.java" />
       </list>
     </option>
   </component>
@@ -261,7 +214,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Website-Login-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Website-Login-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -277,8 +240,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,129 +250,34 @@
             <path>
               <item name="Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-parent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="sensitivefilterutils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-basic-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="sensitivefilterutils" type="462c0819:PsiDirectoryNode" />
-              <item name="query" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-elasticSearch-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-elasticSearch-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-elasticSearch-service" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-elasticSearch-service" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -419,8 +285,8 @@
             <path>
               <item name="Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-elasticSearch-service" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -429,8 +295,8 @@
             <path>
               <item name="Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-elasticSearch-service" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -440,8 +306,8 @@
             <path>
               <item name="Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-elasticSearch-service" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -452,54 +318,116 @@
             <path>
               <item name="Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-elasticSearch-service" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-elasticSearch-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-elasticSearch-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-elasticSearch-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-tool-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-elasticSearch-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
               <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="kapatchaconfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="requestBodyAdvice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-supportes-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-supportes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-supportes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-supportes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-supportes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-supportes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-supportes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-supportes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -512,12 +440,12 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589280513105" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589369103914" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/uitl" />
-    <property name="last_opened_file_path" value="E:/897jiaojie/liaoqu_rest/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../866/866后端/866Server-master-53c293a8ba7ee0efa25f04f3f8c85c6f42989eb9/ai-chu/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -534,25 +462,25 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\demo\DangWebsite\Website\Website-Login-parent\Website-Login-service\src\main\resources\xiongjunmiao\top\Website\mapper" />
-      <recent name="E:\demo\DangWebsite\Website\Website-Login-parent\Website-Login-service\src\main\resources\static\js" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="xiongjunmiao.top.Website" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="xiongjunmiao.top.Website.webtokenFilter.annotation" />
-      <recent name="xiongjunmiao.top.Website.webtokenFilter.resolver" />
-      <recent name="xiongjunmiao.top.Website.sensitivefilterutils.util" />
-      <recent name="xiongjunmiao.top.Website.webtokenFilter.response" />
-      <recent name="xiongjunmiao.top.Website.requestBodyAdvice" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\xiong\xiongjunmiao\Website\Website-tool-parent\Website-elasticSearch-interface\src\main\java\xiongjunmiao\top\Website\domain" />
       <recent name="E:\xiong\xiongjunmiao\Website\Website-tool-parent\Website-redis-interface" />
       <recent name="E:\demo\DangWebsite\Website\Website-Login-parent\Website-Login-service\src\main\resources" />
       <recent name="E:\demo\DangWebsite\Website\Website-Login-parent\Website-Login-service\src\main\java\xiongjunmiao\top\Website" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xiongjunmiao.top.Website.kapatchaconfig" />
+      <recent name="xiongjunmiao.top.Website.repeat.util" />
+      <recent name="xiongjunmiao.top.Website.repeat" />
+      <recent name="xiongjunmiao.top.Website.webtokenFilter.annotation" />
+      <recent name="xiongjunmiao.top.Website.webtokenFilter.resolver" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\demo\DangWebsite\Website\Website-Login-parent\Website-Login-service\src\main\resources\xiongjunmiao\top\Website\mapper" />
+      <recent name="E:\demo\DangWebsite\Website\Website-Login-parent\Website-Login-service\src\main\resources\static\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -573,7 +501,7 @@
     </option>
     <option name="contentProportion" value="0.18634886" />
   </component>
-  <component name="RunManager" selected="JUnit.ProductMapperTest.testGetAllEsProductList">
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
     <configuration default="true" type="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -588,7 +516,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductMapperTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductMapperTest.testExistsIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Website-elasticSearch-service" />
       <extension name="coverage">
         <pattern>
@@ -598,43 +526,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="xiongjunmiao.top.Website.mapper" />
       <option name="MAIN_CLASS_NAME" value="xiongjunmiao.top.Website.mapper.ProductMapperTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductMapperTest.testDeleteIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Website-elasticSearch-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xiongjunmiao.top.Website.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xiongjunmiao.top.Website.mapper" />
-      <option name="MAIN_CLASS_NAME" value="xiongjunmiao.top.Website.mapper.ProductMapperTest" />
-      <option name="METHOD_NAME" value="testDeleteIndex" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductMapperTest.testEsProductMapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Website-elasticSearch-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xiongjunmiao.top.Website.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xiongjunmiao.top.Website.mapper" />
-      <option name="MAIN_CLASS_NAME" value="xiongjunmiao.top.Website.mapper.ProductMapperTest" />
-      <option name="METHOD_NAME" value="testEsProductMapping" />
+      <option name="METHOD_NAME" value="testExistsIndex" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -653,6 +545,42 @@
       <option name="PACKAGE_NAME" value="xiongjunmiao.top.Website.mapper" />
       <option name="MAIN_CLASS_NAME" value="xiongjunmiao.top.Website.mapper.ProductMapperTest" />
       <option name="METHOD_NAME" value="testGetAllEsProductList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductMapperTest.testGetMapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Website-elasticSearch-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xiongjunmiao.top.Website.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xiongjunmiao.top.Website.mapper" />
+      <option name="MAIN_CLASS_NAME" value="xiongjunmiao.top.Website.mapper.ProductMapperTest" />
+      <option name="METHOD_NAME" value="testGetMapping" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductMapperTest.testOpenIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Website-elasticSearch-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xiongjunmiao.top.Website.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xiongjunmiao.top.Website.mapper" />
+      <option name="MAIN_CLASS_NAME" value="xiongjunmiao.top.Website.mapper.ProductMapperTest" />
+      <option name="METHOD_NAME" value="testOpenIndex" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -706,7 +634,7 @@
       <module name="Website-eureka-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xiongjunmiao.top.Website.webtokenFilter.*" />
+          <option name="PATTERN" value="xiongjunmiao.top.Website.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -763,26 +691,26 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.ProductMapperTest.testGetAllEsProductList" />
+      <item itemvalue="JUnit.ProductMapperTest.testExistsIndex" />
+      <item itemvalue="JUnit.ProductMapperTest.testOpenIndex" />
+      <item itemvalue="JUnit.ProductMapperTest.testGetMapping" />
       <item itemvalue="Spring Boot.CommentServiceApplication" />
       <item itemvalue="Spring Boot.ZuulserverApplication" />
       <item itemvalue="Spring Boot.RedisApplication" />
       <item itemvalue="Spring Boot.RabbitMQApplication" />
-      <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.EsApplication" />
-      <item itemvalue="JUnit.ProductMapperTest.testGetAllEsProductList" />
-      <item itemvalue="JUnit.ProductMapperTest.testEsProductMapping" />
       <item itemvalue="Spring Boot.MongDBApplication" />
       <item itemvalue="Spring Boot.AppUserApplication" />
-      <item itemvalue="JUnit.ProductMapperTest.test01" />
-      <item itemvalue="JUnit.ProductMapperTest.testDeleteIndex" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductMapperTest.testGetAllEsProductList" />
-        <item itemvalue="JUnit.ProductMapperTest.testDeleteIndex" />
-        <item itemvalue="JUnit.ProductMapperTest.test01" />
-        <item itemvalue="JUnit.ProductMapperTest.testEsProductMapping" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="JUnit.ProductMapperTest.testGetMapping" />
+        <item itemvalue="JUnit.ProductMapperTest.testOpenIndex" />
+        <item itemvalue="JUnit.ProductMapperTest.testExistsIndex" />
+        <item itemvalue="JUnit.ProductMapperTest.testGetAllEsProductList" />
       </list>
     </recent_temporary>
   </component>
@@ -802,7 +730,8 @@
       <workItem from="1589016284037" duration="4748000" />
       <workItem from="1589088010611" duration="20900000" />
       <workItem from="1589160947660" duration="20511000" />
-      <workItem from="1589246617690" duration="21210000" />
+      <workItem from="1589246617690" duration="23715000" />
+      <workItem from="1589355110107" duration="9958000" />
     </task>
     <task id="LOCAL-00001" summary="advice">
       <created>1588899706059</created>
@@ -850,27 +779,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductMapperTest_testGetAllEsProductList - 2020.05.12 at 17h 54m 02s.xml">
-      <configuration name="ProductMapperTest.testGetAllEsProductList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductMapperTest_testGetAllEsProductList - 2020.05.12 at 17h 54m 32s.xml">
-      <configuration name="ProductMapperTest.testGetAllEsProductList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductMapperTest_testGetAllEsProductList - 2020.05.12 at 17h 54m 59s.xml">
-      <configuration name="ProductMapperTest.testGetAllEsProductList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductMapperTest_testGetAllEsProductList - 2020.05.12 at 17h 55m 31s.xml">
-      <configuration name="ProductMapperTest.testGetAllEsProductList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductMapperTest_testGetAllEsProductList - 2020.05.12 at 17h 56m 06s.xml">
-      <configuration name="ProductMapperTest.testGetAllEsProductList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductMapperTest_testEsProductMapping - 2020.05.12 at 18h 04m 34s.xml">
-      <configuration name="ProductMapperTest.testEsProductMapping" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductMapperTest_test01 - 2020.05.12 at 18h 09m 27s.xml">
-      <configuration name="ProductMapperTest.test01" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProductMapperTest_testGetAllEsProductList - 2020.05.12 at 18h 45m 05s.xml">
       <configuration name="ProductMapperTest.testGetAllEsProductList" configurationId="JUnit" />
     </history-entry>
@@ -880,15 +788,36 @@
     <history-entry file="ProductMapperTest_testGetAllEsProductList - 2020.05.12 at 18h 46m 02s.xml">
       <configuration name="ProductMapperTest.testGetAllEsProductList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProductMapperTest_testDeleteIndex - 2020.05.12 at 18h 47m 19s.xml">
+      <configuration name="ProductMapperTest.testDeleteIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductMapperTest_testGetAllEsProductList - 2020.05.12 at 18h 48m 47s.xml">
+      <configuration name="ProductMapperTest.testGetAllEsProductList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductMapperTest_testExistsIndex - 2020.05.12 at 19h 08m 37s.xml">
+      <configuration name="ProductMapperTest.testExistsIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductMapperTest_testExistsIndex - 2020.05.12 at 19h 08m 55s.xml">
+      <configuration name="ProductMapperTest.testExistsIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductMapperTest_testOpenIndex - 2020.05.12 at 19h 10m 38s.xml">
+      <configuration name="ProductMapperTest.testOpenIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductMapperTest_testOpenIndex - 2020.05.12 at 19h 11m 00s.xml">
+      <configuration name="ProductMapperTest.testOpenIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductMapperTest_testGetMapping - 2020.05.12 at 19h 11m 51s.xml">
+      <configuration name="ProductMapperTest.testGetMapping" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98275000" />
+    <option name="totallyTimeSpent" value="110738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25173333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2512" />
       <window_info id="Structure" order="1" weight="0.2496" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -899,7 +828,7 @@
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18394649" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27201784" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -912,7 +841,7 @@
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.18171683" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.09698997" />
       <window_info anchor="bottom" id="Database Changes" order="16" />
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
       <window_info anchor="bottom" id="MyBatis Log" order="18" />
@@ -946,186 +875,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-rabbitMQ-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.6.RELEASE/spring-rabbit-2.0.6.RELEASE.jar!/org/springframework/amqp/rabbit/connection/ConnectionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.6.RELEASE/spring-rabbit-2.0.6.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="488" column="16" selection-start-line="488" selection-start-column="16" selection-end-line="488" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-rabbitMQ-service/src/main/java/xiongjunmiao/top/Website/connectionutil/ConnectionUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="57" column="28" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-rabbitMQ-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-rabbitMQ-service/src/main/java/xiongjunmiao/top/Website/connectionutil/producer/Mqproducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-rabbitMQ-service/src/test/java/xiongjunmiao/top/Website/connectionutil/producer/MqproducerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-rabbitMQ-service/src/main/java/xiongjunmiao/top/Website/connectionutil/controller/Mqcontroller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-rabbitMQ-service/src/main/java/xiongjunmiao/top/Website/RabbitMQApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/requestBodyAdvice/AsRequestBodyAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1232">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-rabbitMQ-service/src/main/java/xiongjunmiao/top/Website/connectionutil/receiver/MsgReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/java/jdk1.8.0_151/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="1432" column="19" selection-start-line="1432" selection-start-column="19" selection-end-line="1432" selection-end-column="19" />
-          <folding>
-            <element signature="e#55800#55801#0" expanded="true" />
-            <element signature="e#55844#55845#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/sensitivefilterutils/util/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/webtokenFilter/TokenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/webtokenFilter/WebTokenFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1204">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-MongDB-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-MongDB-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="43" column="12" selection-start-line="26" selection-start-column="4" selection-end-line="43" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/AppUserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/mapper/AppUserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/test/java/xiongjunmiao/top/Website/service/IAppUserServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -1141,13 +894,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-interface/src/main/java/xiongjunmiao/top/Website/domain/Product">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-interface/src/main/java/xiongjunmiao/top/Website/domain/Product" />
     <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/resources/xiongjunmiao/top/Website/mapper/EsProductMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -1209,16 +956,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/esutil/EsReponstory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/esutil/EsReponstory.java" />
     <entry file="file://$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/sensitivefilterutils/query/BaseQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1302,7 +1040,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1319,17 +1057,7 @@
     <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/repository/EsRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/esutil/ElasticSearchConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1338,11 +1066,216 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/test/java/xiongjunmiao/top/Website/mapper/ProductMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2491">
-          <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+        <state relative-caret-position="364">
+          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.4.RELEASE/spring-webmvc-5.2.4.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.4.RELEASE/spring-webmvc-5.2.4.RELEASE.jar!/org/springframework/web/servlet/handler/HandlerInterceptorAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/RepeatSubmit.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="256" column="27" selection-start-line="256" selection-start-column="15" selection-end-line="256" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/util/StrFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/util/CharsetKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/util/Convert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="764" column="34" selection-start-line="764" selection-start-column="24" selection-end-line="764" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#22848#22849#0" expanded="true" />
+            <element signature="e#22915#22916#0" expanded="true" />
+            <element signature="e#23148#23149#0" expanded="true" />
+            <element signature="e#23209#23210#0" expanded="true" />
+            <element signature="e#23443#23444#0" expanded="true" />
+            <element signature="e#23488#23489#0" expanded="true" />
+            <element signature="e#23693#23694#0" expanded="true" />
+            <element signature="e#23764#23765#0" expanded="true" />
+            <element signature="e#23970#23971#0" expanded="true" />
+            <element signature="e#24018#24019#0" expanded="true" />
+            <element signature="e#24213#24214#0" expanded="true" />
+            <element signature="e#24272#24273#0" expanded="true" />
+            <element signature="e#24469#24470#0" expanded="true" />
+            <element signature="e#24513#24514#0" expanded="true" />
+            <element signature="e#24705#24706#0" expanded="true" />
+            <element signature="e#24777#24778#0" expanded="true" />
+            <element signature="e#24974#24975#0" expanded="true" />
+            <element signature="e#25018#25019#0" expanded="true" />
+            <element signature="e#25213#25214#0" expanded="true" />
+            <element signature="e#25258#25259#0" expanded="true" />
+            <element signature="e#25455#25456#0" expanded="true" />
+            <element signature="e#25501#25502#0" expanded="true" />
+            <element signature="e#25712#25713#0" expanded="true" />
+            <element signature="e#25791#25792#0" expanded="true" />
+            <element signature="e#25891#25892#0" expanded="true" />
+            <element signature="e#25953#25954#0" expanded="true" />
+            <element signature="e#32484#32514#0" expanded="true" />
+            <element signature="e#32568#32569#0" expanded="true" />
+            <element signature="e#32606#32607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-basic-parent/Website-basic-utils/src/main/java/xiongjunmiao/top/Website/sensitivefilterutils/util/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="503" column="4" selection-start-line="503" selection-start-column="4" selection-end-line="503" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/util/ServletUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/util/JSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1848" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-supportes-parent/Website-eureka-server/src/main/java/xiongjunmiao/top/Website/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/RepeatWebMvcConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-tool-parent/Website-elasticSearch-service/src/main/java/xiongjunmiao/top/Website/esutil/ElasticSearchConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/SameUrlDataInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="54" column="61" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#771#801#0" expanded="true" />
+            <element signature="e#1830#1846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/RepeatSubmitInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/kapatchaconfig/CaptchaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/AppUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/requestBodyAdvice/AsRequestBodyAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/requestBodyAdvice/AsResponseBodyAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/test/java/xiongjunmiao/top/Website/service/IAppUserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="42" column="67" lean-forward="true" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/controller/AppUsercontroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-709">
+          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
         </state>
       </provider>
     </entry>

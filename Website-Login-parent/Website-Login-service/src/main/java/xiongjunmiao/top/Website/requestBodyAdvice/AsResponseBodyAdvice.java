@@ -20,9 +20,11 @@ import xiongjunmiao.top.Website.domain.AppUser;
 @Component
 @RestControllerAdvice(annotations = RestController.class,basePackageClasses=RestExceptionHandler.class)
 public class AsResponseBodyAdvice implements ResponseBodyAdvice<AppUser> {
+
     @Override
     public boolean supports(MethodParameter methodParameter, Class<? extends HttpMessageConverter<?>> aClass) {
-        return true;
+        //这里设置成false 它就不会再走这个类了
+        return false;
     }
 
     @Override

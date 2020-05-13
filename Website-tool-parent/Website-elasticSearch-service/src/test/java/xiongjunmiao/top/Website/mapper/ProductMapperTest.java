@@ -23,6 +23,7 @@ import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.action.support.master.AcknowledgedResponse;
 import org.elasticsearch.action.update.UpdateRequest;
 import org.elasticsearch.action.update.UpdateResponse;
+import org.elasticsearch.client.Request;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.client.core.CountRequest;
@@ -173,14 +174,14 @@ public class ProductMapperTest {
      */
     @Test
     public void testExistsIndex() throws IOException {
-        GetIndexRequest request = new GetIndexRequest("kang");
+        GetIndexRequest request = new GetIndexRequest("yuan");
         boolean exists = client.indices().exists(request, RequestOptions.DEFAULT);
         System.out.println(exists);
     }
 
     @Test
     public void testOpenIndex() throws IOException {
-        OpenIndexRequest request = new OpenIndexRequest("kang");
+        OpenIndexRequest request = new OpenIndexRequest("yuan");
         OpenIndexResponse openIndexResponse = client.indices().open(request, RequestOptions.DEFAULT);
         System.out.println(openIndexResponse.toString());
     }
@@ -193,11 +194,11 @@ public class ProductMapperTest {
     @Test
     public void testGetMapping() throws IOException {
         GetMappingsRequest request = new GetMappingsRequest();
-        request.indices("kang");
+        request.indices("yuan");
         GetMappingsResponse getMappingResponse = client.indices().getMapping(request, RequestOptions.DEFAULT);
 
         Map<String, MappingMetaData> allMappings = getMappingResponse.mappings();
-        MappingMetaData indexMapping = allMappings.get("kang");
+        MappingMetaData indexMapping = allMappings.get("yuan");
         Map<String, Object> mapping = indexMapping.sourceAsMap();
 
         for(String s:mapping.keySet()){
@@ -248,7 +249,7 @@ public class ProductMapperTest {
      */
     @Test
     public void testGetDocumentById() throws IOException {
-//        GetRequest getRequest = new GetRequest("book", "6");
+       //GetRequest getRequest = new GetRequest("book", "6");
         /*
          * 查询指定字段
          */
