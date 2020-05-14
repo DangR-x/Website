@@ -19,13 +19,16 @@ spring:
     url: jdbc:mysql:///website-comment?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
     username: root
     password: 123456
-  #thymeleaf:
-    #mode: HTML5         #设置html页面版本
-    #encoding: utf-8
+  thymeleaf:
+    mode: HTML5         #设置html页面版本
+    encoding: utf-8
     #servlet:
       #content-type: text/html
-    #cache: false        #开发时关闭缓存,不然没法看到实时页面
-  #mvc:
+    cache: false        #开发时关闭缓存,不然没法看到实时页面
+  mvc:
+    view:
+      prefix: templates/        #访问项目中的静态资源
+      suffix: .html
     #static-path-pattern: /**        # static 文件夹下的静态文件访问路径
 
 

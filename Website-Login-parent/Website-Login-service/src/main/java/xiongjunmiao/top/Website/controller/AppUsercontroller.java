@@ -42,6 +42,8 @@ public class AppUsercontroller {
         mav.setViewName("employee");
         return mav;
     }
+
+
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     public ModelAndView login1(@RequestBody AppUser appUser){
         ModelAndView model = new ModelAndView();

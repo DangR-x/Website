@@ -8,6 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import xiongjunmiao.top.Website.domain.AppUser;
 import xiongjunmiao.top.Website.mapper.AppUserMapper;
+import xiongjunmiao.top.Website.mapper.UserMapper;
 
 import javax.annotation.Resource;
 
@@ -28,6 +29,9 @@ public class IAppUserServiceTest {
     @Autowired
     private AppUserMapper appUserMapper;
 
+
+
+
     @Test
     public void test01(){
         AppUser admin = appUserMapper.findByUsername("admin");
@@ -41,6 +45,10 @@ public class IAppUserServiceTest {
         String capStr = capText.substring(0, capText.lastIndexOf("@"));
         String code = capText.substring(capText.lastIndexOf("@") + 1);
         BufferedImage bi = captchaProducerMath.createImage(capStr);
+    }
+    @Test
+    public void test03(){
+
     }
 
 }

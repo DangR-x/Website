@@ -1,7 +1,10 @@
 package xiongjunmiao.top.Website.repeat;
 
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
@@ -15,11 +18,25 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  *      7 addCorsMappings：跨域
  *      8 configureMessageConverters：信息转换器
  */
-//@Configuration
+@Configuration
 public class RepeatWebMvcConfigurer implements WebMvcConfigurer {
 
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
+    @Autowired
+    private RepeatSubmitInterceptor repeatSubmitInterceptor;
 
+    @Override
+    public void addViewControllers(ViewControllerRegistry registry) {
+        //将动态页面employee映射到/admin的url下
+        registry.addViewController("/login").setViewName("login");
+        registry.addViewController("/employee").setViewName("employee");
+    }
+
+    /**
+     * 自定义拦截规则,将防止重复提交表单过滤器注册进去
+     */
+    @Override
+    public void addInterceptors(InterceptorRegistry registry)
+    {
+        //registry.addInterceptor(repeatSubmitInterceptor).addPathPatterns("/**");
     }
 }

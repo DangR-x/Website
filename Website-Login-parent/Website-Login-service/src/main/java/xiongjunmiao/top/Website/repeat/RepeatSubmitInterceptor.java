@@ -16,7 +16,7 @@ import java.lang.reflect.Method;
 /**
  *  防止重复提交拦截器
  */
-//@Component
+@Component
 public abstract class RepeatSubmitInterceptor extends  HandlerInterceptorAdapter {
 
     //preHandle在业务处理器处理请求之前被调用。预处理，可以进行编码、安全控制等处理；
