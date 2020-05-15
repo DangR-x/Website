@@ -34,7 +34,7 @@ spring:
 
 mybatis:
   mapper-locations: classpath*:xiongjunmiao/top/Website/mapper/*Mapper.xml        #mapper文件的位置
-  type-aliases-package: xiongjunmiao.top.Website.domain,xiongjunmiao.top.Website.query      #将别名配置进mybatis在写mapper的时候就用别名就可以
+  type-aliases-package: xiongjunmiao.top.Website.domain,xiongjunmiao.top.Website.query     #将别名配置进mybatis在写mapper的时候就用别名就可以
 # myBatis分页插件
 pagehelper:
   helperDialect: mysql

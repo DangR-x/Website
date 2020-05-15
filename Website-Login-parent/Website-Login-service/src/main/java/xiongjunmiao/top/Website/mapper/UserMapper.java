@@ -1,6 +1,8 @@
 package xiongjunmiao.top.Website.mapper;
 
-import xiongjunmiao.top.Website.security.User;
+
+
+import xiongjunmiao.top.Website.domain.User;
 
 import java.io.Serializable;
 import java.util.List;

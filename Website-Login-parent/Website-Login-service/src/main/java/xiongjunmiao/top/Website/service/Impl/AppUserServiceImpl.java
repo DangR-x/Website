@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import xiongjunmiao.top.Website.domain.AppUser;
 import xiongjunmiao.top.Website.mapper.AppUserMapper;
+import xiongjunmiao.top.Website.repeat.util.Convert;
 import xiongjunmiao.top.Website.service.IAppUserService;
 
 

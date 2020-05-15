@@ -7,12 +7,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import xiongjunmiao.top.Website.domain.AppUser;
+import xiongjunmiao.top.Website.domain.User;
 import xiongjunmiao.top.Website.mapper.AppUserMapper;
 import xiongjunmiao.top.Website.mapper.UserMapper;
+
 
 import javax.annotation.Resource;
 
 import java.awt.image.BufferedImage;
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -29,13 +32,15 @@ public class IAppUserServiceTest {
     @Autowired
     private AppUserMapper appUserMapper;
 
-
-
+    @Autowired
+    private UserMapper userMapper;
 
     @Test
     public void test01(){
-        AppUser admin = appUserMapper.findByUsername("admin");
-        System.out.println(admin);
+        List<User> users = userMapper.selectAll();
+        for (User user : users) {
+            System.out.println(user);
+        }
     }
 
 
