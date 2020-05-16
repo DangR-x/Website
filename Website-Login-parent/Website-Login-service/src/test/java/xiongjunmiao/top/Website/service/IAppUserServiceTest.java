@@ -53,7 +53,10 @@ public class IAppUserServiceTest {
     }
     @Test
     public void test03(){
-
+        List<User> users = userMapper.selectAll();
+        for (User user : users) {
+            System.out.println(user);
+        }
     }
 
 }

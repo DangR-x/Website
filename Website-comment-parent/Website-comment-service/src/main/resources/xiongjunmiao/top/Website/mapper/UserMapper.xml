@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace : mapper接口的完全限定名 -->
+<mapper namespace="xiongjunmiao.top.Website.mapper.UserMapper">
+
+
+    <insert id="insert" parameterType="user" keyProperty="id" useGeneratedKeys="true">
+        insert into t_user (id, username, password, role, menu) value (#{id},#{username},#{password},#{role},#{menu})
+    </insert>
+
+    <delete id="deleteById" parameterType="long">
+        delete from t_user where id=#{id}
+    </delete>
+    <update id="updateById" parameterType="user">
+        update t_user u set u.username=#{username},u.password=#{password},u.role=#{role},u.menu=#{menu} where u.id=#{id}
+    </update>
+
+    <select id="selectById" resultType="user">
+        select * from t_user where id=#{id}
+    </select>
+
+    <select id="selectAll1" resultType="user">
+        select * from t_user
+    </select>
+</mapper>

@@ -9,8 +9,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import xiongjunmiao.top.Website.controller.CommentController;
 import xiongjunmiao.top.Website.domain.Comment;
+import xiongjunmiao.top.Website.domain.User;
 import xiongjunmiao.top.Website.mapper.CommentMapper;
 import xiongjunmiao.top.Website.service.impl.CommentServiceImpl;
+
+import java.util.List;
 
 
 @RunWith(SpringRunner.class)
@@ -24,6 +27,9 @@ public class ICommentServiceTest {
     @Autowired
     private CommentMapper commentMapper;
 
+    @Autowired
+    private IUserService userService;
+
     @Test
     public void test01(){
         Comment comment = commentMapper.selectById(1L);
@@ -32,7 +38,13 @@ public class ICommentServiceTest {
         logger.info(comment.toString());
         logger.warn(comment.toString());
         logger.error(comment.toString());
-
+    }
+    @Test
+    public void test02(){
+        List<User> users = userService.selectAll();
+        for (User user : users) {
+            System.out.println(user);
+        }
     }
 
 
