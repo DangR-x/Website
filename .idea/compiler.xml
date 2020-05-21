@@ -23,6 +23,8 @@
         <module name="Website-scurity-interface" />
         <module name="Website-scurity-service" />
         <module name="Website-springboot-starter" />
+        <module name="Website-tik-interface" />
+        <module name="Website-tik-service" />
         <module name="Website-zuul-server" />
       </profile>
     </annotationProcessing>
@@ -51,6 +53,8 @@
       <module name="Website-scurity-service" target="1.8" />
       <module name="Website-springboot-starter" target="1.8" />
       <module name="Website-supportes-parent" target="1.8" />
+      <module name="Website-tik-interface" target="1.8" />
+      <module name="Website-tik-service" target="1.8" />
       <module name="Website-tool-parent" target="1.8" />
       <module name="Website-zuul-server" target="1.8" />
     </bytecodeTargetLevel>

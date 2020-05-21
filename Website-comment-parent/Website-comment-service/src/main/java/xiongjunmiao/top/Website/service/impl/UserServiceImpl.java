@@ -1,6 +1,7 @@
 package xiongjunmiao.top.Website.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 import xiongjunmiao.top.Website.domain.User;
 import xiongjunmiao.top.Website.mapper.UserMapper;
@@ -43,5 +44,10 @@ public class UserServiceImpl implements IUserService {
     @Override
     public List<User> selectAll() {
         return UserMapper.selectAll1();
+    }
+
+    @Override
+    public UserDetails loadUserByUsername(String username) {
+        return null;
     }
 }

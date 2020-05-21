@@ -19,9 +19,9 @@ import java.util.concurrent.ConcurrentHashMap;
  * mall-security模块相关配置
  *
  */
-@Configuration
-@EnableWebSecurity
-@EnableGlobalMethodSecurity(prePostEnabled = true)
+//@Configuration
+//@EnableWebSecurity
+//@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class MallSecurityConfig extends SecurityConfig {
 
     @Autowired
@@ -45,6 +45,7 @@ public class MallSecurityConfig extends SecurityConfig {
                 Map<String, ConfigAttribute> map = new ConcurrentHashMap<>();
 //                List<UmsResource> resourceList = resourceService.listAll();
 //                for (UmsResource resource : resourceList) {
+//                    //将需要验证的所有资源,以路径为键,id和名称为值存入map中在注入进security容器中
 //                    map.put(resource.getUrl(), new org.springframework.security.access.SecurityConfig(resource.getId() + ":" + resource.getName()));
 //                }
                 return map;

@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+import xiongjunmiao.top.Website.CommentServiceApplication;
 import xiongjunmiao.top.Website.controller.CommentController;
 import xiongjunmiao.top.Website.domain.Comment;
 import xiongjunmiao.top.Website.domain.User;
@@ -29,6 +30,8 @@ public class ICommentServiceTest {
 
     @Autowired
     private IUserService userService;
+
+
 
     @Test
     public void test01(){

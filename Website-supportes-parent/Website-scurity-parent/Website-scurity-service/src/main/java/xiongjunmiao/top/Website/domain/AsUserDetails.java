@@ -42,10 +42,12 @@ public class AsUserDetails implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        //返回当前用户的角色
-        return resourceList.stream()
-                .map(role ->new SimpleGrantedAuthority(role.getId()+":"+role.getName()))
+        //将当前用户用有的访问资源全部以id和名称的list注入进容器,方便比较
+        List<SimpleGrantedAuthority> collect = resourceList.stream()
+                .map(role -> new SimpleGrantedAuthority(role.getId() + ":" + role.getName()))
                 .collect(Collectors.toList());
+        //返回当前用户的角色
+        return collect;
     }
 
     @Override

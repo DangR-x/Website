@@ -13,7 +13,7 @@ public class FileWebMvcComfigurer implements WebMvcConfigurer {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        //表示E:/xiong/imagex/下的文件解析成/xiong/**的路径可以访问
+        //表示E:/xiong/imagex/下的文件解析成/xiong/**的路径可以访问,
         registry.addResourceHandler("/xiong/**").addResourceLocations("file:E:/xiong/imagex/");
     }
 }
