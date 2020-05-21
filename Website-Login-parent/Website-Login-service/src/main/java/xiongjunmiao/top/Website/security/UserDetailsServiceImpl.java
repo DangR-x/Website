@@ -15,7 +15,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     @Autowired
     private UserMapper userMapper;
 
-
+    //将登陆用户和用户的角色和菜单注入scurity中
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
         return null;

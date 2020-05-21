@@ -10,17 +10,20 @@ public class User {
     private String password;
     private Integer role;
     private String menu;
+    private String file;
 
-    public User() {
-    }
-
-    public User(Long id, String username, String password, Integer role, String menu) {
+    public User(Long id, String username, String password, Integer role, String menu, String file) {
         this.id = id;
         this.username = username;
         this.password = password;
         this.role = role;
         this.menu = menu;
+        this.file = file;
     }
+
+    public User() {
+    }
+
 
     public Long getId() {
         return id;
@@ -62,6 +65,14 @@ public class User {
         this.menu = menu;
     }
 
+    public String getFile() {
+        return file;
+    }
+
+    public void setFile(String file) {
+        this.file = file;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -70,6 +81,7 @@ public class User {
                 ", password='" + password + '\'' +
                 ", role=" + role +
                 ", menu='" + menu + '\'' +
+                ", file='" + file + '\'' +
                 '}';
     }
 }

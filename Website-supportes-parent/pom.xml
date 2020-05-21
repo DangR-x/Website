@@ -14,6 +14,7 @@
     <modules>
         <module>Website-eureka-server</module>
         <module>Website-zuul-server</module>
+        <module>Website-scurity-parent</module>
     </modules>
 
 

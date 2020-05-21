@@ -16,16 +16,25 @@ public class User  {
     private String password;
     private Integer role;
     private String menu;
-
+    private String pic;
     public User() {
     }
 
-    public User(Long id, String username, String password, Integer role, String menu) {
+    public User(Long id, String username, String password, Integer role, String menu, String pic) {
         this.id = id;
         this.username = username;
         this.password = password;
         this.role = role;
         this.menu = menu;
+        this.pic = pic;
+    }
+
+    public String getPic() {
+        return pic;
+    }
+
+    public void setPic(String pic) {
+        this.pic = pic;
     }
 
     public Long getId() {
@@ -76,6 +85,7 @@ public class User  {
                 ", password='" + password + '\'' +
                 ", role=" + role +
                 ", menu='" + menu + '\'' +
+                ", pic='" + pic + '\'' +
                 '}';
     }
 }

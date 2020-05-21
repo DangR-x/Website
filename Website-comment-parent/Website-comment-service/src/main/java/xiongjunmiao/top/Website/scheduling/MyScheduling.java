@@ -9,12 +9,12 @@ import org.springframework.stereotype.Component;
 /**
  * Created by J on 2020/5/11 10:12
  */
-@Component
-@EnableScheduling
+//@Component
+//@EnableScheduling
 public class MyScheduling {
 
 
-    @Scheduled(cron = "0 */5 * * * ?")
+    //@Scheduled(cron = "0 */5 * * * ?")
     public void test(){
         System.out.println("这是一个定时器1");
         getAsync();
@@ -22,7 +22,7 @@ public class MyScheduling {
         System.out.println("定时器完成1");
 
     }
-    @Scheduled(cron = "0 */2 * * * ?")
+    //@Scheduled(cron = "0 */2 * * * ?")
     public void test1(){
         System.out.println("这是一个定时器2");
         getAsync();

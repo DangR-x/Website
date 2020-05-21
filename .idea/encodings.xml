@@ -13,6 +13,9 @@
     <file url="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Website-supportes-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Website-supportes-parent/Website-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Website-supportes-parent/Website-scurity-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Website-supportes-parent/Website-scurity-parent/Website-scurity-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Website-supportes-parent/Website-scurity-parent/Website-scurity-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Website-supportes-parent/Website-zuul-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Website-tool-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Website-tool-parent/Website-MongDB-interface" charset="UTF-8" />

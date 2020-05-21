@@ -64,6 +64,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
 
+    protected WebSecurityConfig() {
+        super();
+    }
+
     @Override
     public void configure(WebSecurity web) throws Exception {
         //忽略对这些路径的安全验证

@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import xiongjunmiao.top.Website.domain.User;
 import xiongjunmiao.top.Website.service.IUserService;
-import xiongjunmiao.top.Website.service.impl.UserServiceImpl;
 
 import java.util.List;
 

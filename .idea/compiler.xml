@@ -20,6 +20,8 @@
         <module name="Website-rabbitMQ-service" />
         <module name="Website-redis-interface" />
         <module name="Website-redis-service" />
+        <module name="Website-scurity-interface" />
+        <module name="Website-scurity-service" />
         <module name="Website-springboot-starter" />
         <module name="Website-zuul-server" />
       </profile>
@@ -44,6 +46,9 @@
       <module name="Website-rabbitMQ-service" target="1.8" />
       <module name="Website-redis-interface" target="1.8" />
       <module name="Website-redis-service" target="1.8" />
+      <module name="Website-scurity-interface" target="1.8" />
+      <module name="Website-scurity-parent" target="1.8" />
+      <module name="Website-scurity-service" target="1.8" />
       <module name="Website-springboot-starter" target="1.8" />
       <module name="Website-supportes-parent" target="1.8" />
       <module name="Website-tool-parent" target="1.8" />
