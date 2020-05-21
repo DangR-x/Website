@@ -9,6 +9,7 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import xiongjunmiao.top.Website.component.DynamicSecurityService;
+import xiongjunmiao.top.Website.service.IAdminService;
 
 import java.util.List;
 import java.util.Map;
@@ -23,8 +24,8 @@ import java.util.concurrent.ConcurrentHashMap;
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class MallSecurityConfig extends SecurityConfig {
 
-//    @Autowired
-//    private UmsAdminService adminService;
+    @Autowired
+    private IAdminService adminService;
 //    @Autowired
 //    private UmsResourceService resourceService;
 
@@ -32,7 +33,7 @@ public class MallSecurityConfig extends SecurityConfig {
     public UserDetailsService userDetailsService() {
         //获取登录用户信息
         return username -> adminService.loadUserByUsername(username);
-        //return null;
+
     }
 
     @Bean

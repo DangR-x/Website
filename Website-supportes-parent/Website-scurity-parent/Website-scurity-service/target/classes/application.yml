@@ -30,3 +30,4 @@ secure:
       - /admin/info
       - /admin/logout
       - /minio/upload
+      - /test/password
