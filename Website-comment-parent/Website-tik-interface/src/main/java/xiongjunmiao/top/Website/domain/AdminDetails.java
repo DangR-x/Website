@@ -17,9 +17,9 @@ public class AdminDetails implements UserDetails {
 
     private Admin admin;
     //需要过滤的路径
-    private List<AdminResource> resourceList;
+    private List<Resource> resourceList;
 
-    public AdminDetails(Admin admin, List<AdminResource> resourceList) {
+    public AdminDetails(Admin admin, List<Resource> resourceList) {
         this.admin = admin;
         this.resourceList = resourceList;
     }
@@ -32,11 +32,11 @@ public class AdminDetails implements UserDetails {
         this.admin = admin;
     }
 
-    public List<AdminResource> getResourceList() {
+    public List<Resource> getResourceList() {
         return resourceList;
     }
 
-    public void setResourceList(List<AdminResource> resourceList) {
+    public void setResourceList(List<Resource> resourceList) {
         this.resourceList = resourceList;
     }
 
@@ -78,5 +78,13 @@ public class AdminDetails implements UserDetails {
     @Override
     public boolean isEnabled() {
         return false;
+    }
+
+    @Override
+    public String toString() {
+        return "AdminDetails{" +
+                "admin=" + admin +
+                ", resourceList=" + resourceList +
+                '}';
     }
 }

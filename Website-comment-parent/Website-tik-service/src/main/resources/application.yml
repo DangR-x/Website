@@ -22,6 +22,23 @@ mybatis:
   mapper-locations: classpath*:xiongjunmiao/top/Website/mapper/*Mapper.xml        #mapper文件的位置
   type-aliases-package: xiongjunmiao.top.Website.domain,xiongjunmiao.top.Website.query      #将别名配置进mybatis在写mapper的时候就用别名就可以
 
+jwt:
+  tokenHeader: Authorization #JWT存储的请求头
+  secret: mall-admin-secret #JWT加解密使用的密钥
+  expiration: 604800 #JWT的超期限时间(60*60*24*7)
+  tokenHead: Bearer  #JWT负载中拿到开头
+
+secure:
+  ignored:
+    urls: #安全路径白名单
+      - /**/*.js
+      - /**/*.css
+      - /**/*.png
+      - /**/*.ico
+      - /admin/login
+      - /admin/register
+      - /admin/info
+
 logging:
   level:
     xiongjunmiao.top.Website: debug           #日志记录的级别

@@ -5,8 +5,9 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import xiongjunmiao.top.Website.domain.Admin;
+import xiongjunmiao.top.Website.domain.*;
 import xiongjunmiao.top.Website.mapper.AdminMapper;
+import xiongjunmiao.top.Website.mapper.ResourceMapper;
 import xiongjunmiao.top.Website.service.Impl.AdminServiceImpl;
 
 import java.util.Date;
@@ -23,6 +24,63 @@ public class IAdminServiceTest {
 
     @Autowired
     private AdminMapper adminMapper;
+
+    @Autowired
+    private ResourceMapper resourceMapper;
+
+    @Autowired
+    private IRoleService roleService;
+
+    @Autowired
+    private IMenuService menuService;
+
+    @Test
+    public void Test7(){
+
+    }
+
+    @Test
+    public void Test6(){
+        Admin admin = adminMapper.selectByName("测试");
+        AdminDetails adminDetails = adminService.loadUserByUsername("测试");
+        System.out.println(adminDetails);
+    }
+
+
+    @Test
+    public void Test5(){
+        List<Menu> menuByAdminId = roleService.getMenuByAdminId(1L);
+        for (Menu menu : menuByAdminId) {
+            System.out.println(menu);
+        }
+
+    }
+
+    @Test
+    public void Test4(){
+        menuService.deleteById(27L);
+
+    }
+
+
+
+    @Test
+    public void Test3(){
+        List<Role> roles = roleService.selectAll();
+        for (Role role : roles) {
+            System.out.println(role);
+        }
+
+    }
+
+    @Test
+    public void Test2(){
+        List<Resource> resourceByAminId = resourceMapper.getResourceByAminId(1L);
+        for (Resource resource : resourceByAminId) {
+            System.out.println(resource);
+        }
+
+    }
 
     @Test
     public void Test(){
