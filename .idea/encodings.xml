@@ -11,6 +11,8 @@
     <file url="file://$PROJECT_DIR$/Website-comment-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Website-comment-parent/Website-product-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Website-comment-parent/Website-product-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Website-supportes-parent" charset="UTF-8" />

@@ -1,5 +1,6 @@
 package xiongjunmiao.top.Website.service;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +11,7 @@ import xiongjunmiao.top.Website.mapper.AdminMapper;
 import xiongjunmiao.top.Website.mapper.ResourceMapper;
 import xiongjunmiao.top.Website.service.Impl.AdminServiceImpl;
 
+import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
 
@@ -34,9 +36,35 @@ public class IAdminServiceTest {
     @Autowired
     private IMenuService menuService;
 
+    @Autowired
+    private IGoodsService goodsService;
+
+    @Test
+    public void Test8(){
+        Goods goods = goodsService.selectById(2L);
+        goods.setCommission(new BigDecimal("6.364"));
+        goodsService.updateById(goods);
+
+
+
+
+    }
+
     @Test
     public void Test7(){
 
+        Goods goods = new Goods();
+        goods.setAdminId(1L);
+        goods.setAfterSale("haha");
+        goods.setCategoryId(2L);
+        goods.setCommission(new BigDecimal("3.23"));
+        goods.setCommissionType(1);
+        goods.setCreatetime(new Date());
+        goods.setFxType(2);
+        goods.setGotScoreType(1);
+        goods.setHidden(1);
+        goods.setKanjia(false);
+        goodsService.insert(goods);
     }
 
     @Test

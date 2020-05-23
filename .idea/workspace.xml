@@ -2,64 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c15981d-2929-4f4b-b7ac-9b01e3ae9585" name="Default" comment="定时任务">
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/AdminPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/AdminRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/dto/AdminParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/dto/LoginAdminParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/dto/UpdateAdminPasswordParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/controller/PermissionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/AdminPermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/AdminRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/BaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/MenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/PermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/ResourceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IAdminPermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IAdminRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IPermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IResourceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/AdminPermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/AdminRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/BaseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/MenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/PermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/ResourceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/AdminPermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/AdminRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/MenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/PermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/ResourceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-product-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-product-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-product-service/src/main/java/xiongjunmiao/top/Website/config/FileConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-product-service/src/main/resources/xiongjunmiao/top/Website/mapper/FileMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Pics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/config/FileConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/GoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/PicsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IPicsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/GoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/PicsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/GoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/PicsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/AdminDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/AdminDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/AdminResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/TikApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/TikApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/component/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/component/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/config/TikSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/config/TikSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/AdminMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/service/IFileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/service/IFileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/AdminRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/AdminRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/target/classes/xiongjunmiao/top/Website/domain/AdminRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/target/classes/xiongjunmiao/top/Website/domain/AdminRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/controller/AdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IAdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IAdminService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/AdminMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/test/java/xiongjunmiao/top/Website/service/IAdminServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/test/java/xiongjunmiao/top/Website/service/IAdminServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/target/classes/xiongjunmiao/top/Website/TikApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/target/classes/xiongjunmiao/top/Website/TikApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/target/classes/xiongjunmiao/top/Website/mapper/AdminMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/target/classes/xiongjunmiao/top/Website/mapper/AdminMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/target/classes/xiongjunmiao/top/Website/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/target/classes/xiongjunmiao/top/Website/controller/AdminController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/target/classes/xiongjunmiao/top/Website/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/target/classes/xiongjunmiao/top/Website/mapper/AdminMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/target/classes/xiongjunmiao/top/Website/service/IAdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/target/classes/xiongjunmiao/top/Website/service/IAdminService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/target/classes/xiongjunmiao/top/Website/service/Impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/target/classes/xiongjunmiao/top/Website/service/Impl/AdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/target/test-classes/xiongjunmiao/top/Website/service/IAdminServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/target/test-classes/xiongjunmiao/top/Website/service/IAdminServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website-supportes-parent/Website-scurity-parent/Website-scurity-service/src/main/java/xiongjunmiao/top/Website/component/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Website-supportes-parent/Website-scurity-parent/Website-scurity-service/src/main/java/xiongjunmiao/top/Website/component/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website-comment-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Website-comment-parent/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Website-basic-parent/target/" />
@@ -88,6 +63,8 @@
     <ignored path="$PROJECT_DIR$/Website-supportes-parent/Website-scurity-parent/Website-scurity-interface/target/" />
     <ignored path="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/target/" />
     <ignored path="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/target/" />
+    <ignored path="$PROJECT_DIR$/Website-comment-parent/Website-product-service/target/" />
+    <ignored path="$PROJECT_DIR$/Website-comment-parent/Website-product-interface/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,38 +85,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/AdminServiceImpl.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/PicsMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="868">
-              <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+            <state relative-caret-position="728">
+              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/GoodsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1064">
+              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#login#0;class#AdminServiceImpl#0" />
-                <element signature="method#register#0;class#AdminServiceImpl#0" />
-                <element signature="method#updatePassword#0;class#AdminServiceImpl#0" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/controller/PermissionController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IPermissionService.java">
+        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/GoodsMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+              <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
+              <folding>
+                <element signature="e#1827#2026#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Goods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2268">
+              <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,44 +140,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/PermissionServiceImpl.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/test/java/xiongjunmiao/top/Website/service/IAdminServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/PermissionMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/PermissionMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="208">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -196,8 +156,8 @@
       <list>
         <option value="HTML File" />
         <option value="JUnit4 Test Class" />
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -239,23 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IResourceService.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/config/TikSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/ResourceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/dto/LoginAdminParam.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/controller/AdminApplication.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/responseapi/CommonResult.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/dto/UmsAdminParam.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/dto/AdminParam.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/BaseService.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/BaseMapper.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/BaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Role.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Menu.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IMenuService.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/MenuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/MenuMapper.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/MenuMapper.xml" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/ResourceMapper.xml" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/RoleMapper.xml" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/dto/UpdateAdminPasswordParam.java" />
@@ -264,25 +207,17 @@
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/RoleMapper.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IRoleService.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/AdminRole.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IAdminRoleService.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/AdminRoleMapper.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/AdminRoleMapper.xml" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/AdminRoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/AdminPermission.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/AdminPermissionMapper.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IAdminPermissionService.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/AdminPermissionServiceImpl.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Permission.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IAdminService.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/AdminMapper.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/test/java/xiongjunmiao/top/Website/service/IAdminServiceTest.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/AdminPermissionMapper.xml" />
         <option value="$PROJECT_DIR$/Website-supportes-parent/Website-scurity-parent/Website-scurity-service/src/main/java/xiongjunmiao/top/Website/component/JwtAuthenticationTokenFilter.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/component/JwtAuthenticationTokenFilter.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/AdminMapper.xml" />
-        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/AdminServiceImpl.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IPermissionService.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/ResourceMapper.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/PermissionMapper.java" />
@@ -290,6 +225,31 @@
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Token.java" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/PermissionMapper.xml" />
         <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/controller/PermissionController.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/sql/t_user.sql" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IAdminService.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/AdminMapper.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/AdminMapper.xml" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/AdminRole.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/AdminRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-product-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-product-service/src/main/java/xiongjunmiao/top/Website/config/FileConfig.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/service/IFileService.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/PicsMapper.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IPcsService.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IPicsService.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/PicsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Pics.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/GoodsMapper.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/PicsMapper.xml" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IGoodsService.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Goods.java" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/test/java/xiongjunmiao/top/Website/service/IAdminServiceTest.java" />
       </list>
     </option>
   </component>
@@ -322,11 +282,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="852" />
-    <option name="y" value="65" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="57" />
+    <option name="y" value="194" />
+    <option name="width" value="1488" />
+    <option name="height" value="997" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -498,60 +458,6 @@
               <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
               <item name="top" type="462c0819:PsiDirectoryNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-tik-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="jwtsecurity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-tik-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="jwtsecurity" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-tik-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="jwtsecurity" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-comment-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="Website-tik-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiongjunmiao" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -636,6 +542,11 @@
               <item name="Website" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Website-Login-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -652,17 +563,17 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590202443940" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590230109697" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/uitl" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HRM/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33563218" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
@@ -681,18 +592,18 @@
       <recent name="xiongjunmiao.top.Website" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xiong\xiongjunmiao\Website\Website-comment-parent\Website-tik-service\src\main\java\xiongjunmiao\top\Website\jwtsecurity\sql" />
       <recent name="E:\xiong\xiongjunmiao\Website\Website-comment-parent\Website-tik-service\src\main\java\xiongjunmiao\top\Website\jwtsecurity" />
       <recent name="E:\xiong\xiongjunmiao\Website\Website-comment-parent\Website-tik-service\src\main\java\xiongjunmiao\top\Website\jwtsecurity\utils" />
       <recent name="E:\xiong\xiongjunmiao\Website\Website-comment-parent\Website-tik-service\src\main\java\xiongjunmiao\top\Website\jwtsecurity\config" />
       <recent name="E:\xiong\xiongjunmiao\Website\Website-comment-parent\Website-tik-service\src\main\resources\xiongjunmiao\top\Website\mapper" />
-      <recent name="E:\xiong\xiongjunmiao\Website\Website-comment-parent\Website-comment-service\src\main\resources\xiongjunmiao\top\Website\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xiongjunmiao.top.Website.config" />
       <recent name="xiongjunmiao.top.Website.dto" />
       <recent name="xiongjunmiao.top.Website.responseapi" />
       <recent name="xiongjunmiao.top.Website.jwtsecurity.utils" />
       <recent name="xiongjunmiao.top.Website.domain" />
-      <recent name="xiongjunmiao.top.Website.mapper" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\xiong\xiongjunmiao\Website\Website-comment-parent\Website-tik-service\src\main\java\xiongjunmiao\top\Website\sql" />
@@ -720,7 +631,7 @@
     </option>
     <option name="contentProportion" value="0.15268002" />
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+  <component name="RunManager" selected="JUnit.IAdminServiceTest.Test8">
     <configuration default="true" type="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -731,24 +642,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IAdminServiceTest.Test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Website-tik-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xiongjunmiao.top.Website.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xiongjunmiao.top.Website.service" />
-      <option name="MAIN_CLASS_NAME" value="xiongjunmiao.top.Website.service.IAdminServiceTest" />
-      <option name="METHOD_NAME" value="Test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -800,6 +693,24 @@
       <option name="PACKAGE_NAME" value="xiongjunmiao.top.Website.service" />
       <option name="MAIN_CLASS_NAME" value="xiongjunmiao.top.Website.service.IAdminServiceTest" />
       <option name="METHOD_NAME" value="Test7" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IAdminServiceTest.Test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Website-tik-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xiongjunmiao.top.Website.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xiongjunmiao.top.Website.service" />
+      <option name="MAIN_CLASS_NAME" value="xiongjunmiao.top.Website.service.IAdminServiceTest" />
+      <option name="METHOD_NAME" value="Test8" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -917,7 +828,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.IAdminServiceTest.Test4" />
       <item itemvalue="JUnit.IAdminServiceTest.Test5" />
       <item itemvalue="JUnit.IAdminServiceTest.Test6" />
       <item itemvalue="JUnit.IAdminServiceTest.Test7" />
@@ -930,14 +840,15 @@
       <item itemvalue="Spring Boot.AppUserApplication" />
       <item itemvalue="Spring Boot.TikApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="JUnit.IAdminServiceTest.Test8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="JUnit.IAdminServiceTest.Test8" />
         <item itemvalue="JUnit.IAdminServiceTest.Test7" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="JUnit.IAdminServiceTest.Test6" />
         <item itemvalue="JUnit.IAdminServiceTest.Test5" />
-        <item itemvalue="JUnit.IAdminServiceTest.Test4" />
       </list>
     </recent_temporary>
   </component>
@@ -966,7 +877,7 @@
       <workItem from="1589937896265" duration="22426000" />
       <workItem from="1590024368090" duration="16646000" />
       <workItem from="1590112554763" duration="29456000" />
-      <workItem from="1590197474626" duration="4745000" />
+      <workItem from="1590197474626" duration="22804000" />
     </task>
     <task id="LOCAL-00001" summary="advice">
       <created>1588899706059</created>
@@ -1014,45 +925,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IAdminServiceTest_Test4 - 2020.05.22 at 15h 10m 51s.xml">
-      <configuration name="IAdminServiceTest.Test4" configurationId="JUnit" />
+    <history-entry file="IAdminServiceTest_Test8 - 2020.05.23 at 17h 52m 00s.xml">
+      <configuration name="IAdminServiceTest.Test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IAdminServiceTest_Test5 - 2020.05.22 at 15h 21m 26s.xml">
-      <configuration name="IAdminServiceTest.Test5" configurationId="JUnit" />
+    <history-entry file="IAdminServiceTest_Test8 - 2020.05.23 at 18h 01m 32s.xml">
+      <configuration name="IAdminServiceTest.Test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IAdminServiceTest_Test5 - 2020.05.22 at 15h 22m 33s.xml">
-      <configuration name="IAdminServiceTest.Test5" configurationId="JUnit" />
+    <history-entry file="IAdminServiceTest_Test8 - 2020.05.23 at 18h 02m 24s.xml">
+      <configuration name="IAdminServiceTest.Test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IAdminServiceTest_Test5 - 2020.05.22 at 15h 23m 32s.xml">
-      <configuration name="IAdminServiceTest.Test5" configurationId="JUnit" />
+    <history-entry file="IAdminServiceTest_Test8 - 2020.05.23 at 18h 07m 36s.xml">
+      <configuration name="IAdminServiceTest.Test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IAdminServiceTest_Test6 - 2020.05.22 at 16h 18m 41s.xml">
-      <configuration name="IAdminServiceTest.Test6" configurationId="JUnit" />
+    <history-entry file="IAdminServiceTest_Test8 - 2020.05.23 at 18h 09m 07s.xml">
+      <configuration name="IAdminServiceTest.Test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IAdminServiceTest_Test6 - 2020.05.22 at 16h 22m 15s.xml">
-      <configuration name="IAdminServiceTest.Test6" configurationId="JUnit" />
+    <history-entry file="IAdminServiceTest_Test8 - 2020.05.23 at 18h 10m 37s.xml">
+      <configuration name="IAdminServiceTest.Test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IAdminServiceTest_Test6 - 2020.05.22 at 16h 23m 14s.xml">
-      <configuration name="IAdminServiceTest.Test6" configurationId="JUnit" />
+    <history-entry file="IAdminServiceTest_Test8 - 2020.05.23 at 18h 13m 36s.xml">
+      <configuration name="IAdminServiceTest.Test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IAdminServiceTest_Test6 - 2020.05.22 at 17h 19m 29s.xml">
-      <configuration name="IAdminServiceTest.Test6" configurationId="JUnit" />
+    <history-entry file="IAdminServiceTest_Test8 - 2020.05.23 at 18h 14m 56s.xml">
+      <configuration name="IAdminServiceTest.Test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IAdminServiceTest_Test7 - 2020.05.22 at 17h 20m 22s.xml">
+    <history-entry file="IAdminServiceTest_Test7 - 2020.05.23 at 18h 21m 54s.xml">
       <configuration name="IAdminServiceTest.Test7" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IAdminServiceTest_Test7 - 2020.05.22 at 17h 22m 58s.xml">
-      <configuration name="IAdminServiceTest.Test7" configurationId="JUnit" />
+    <history-entry file="IAdminServiceTest_Test8 - 2020.05.23 at 18h 34m 54s.xml">
+      <configuration name="IAdminServiceTest.Test8" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235884000" />
+    <option name="totallyTimeSpent" value="253943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24906667" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30133334" />
       <window_info id="Structure" order="1" weight="0.2496" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -1063,7 +974,7 @@
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.27201784" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20624304" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36008918" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1076,7 +987,7 @@
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.059085842" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.25864124" />
       <window_info anchor="bottom" id="Database Changes" order="16" />
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
       <window_info anchor="bottom" id="MyBatis Log" order="18" />
@@ -1094,7 +1005,7 @@
       <window_info anchor="right" id="aiXcoder" order="11" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30507192" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30133334" />
       <window_info id="Structure" order="1" weight="0.2496" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -1105,7 +1016,7 @@
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.27201784" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42905983" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29208472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1118,7 +1029,7 @@
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.19732441" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.25864124" />
       <window_info anchor="bottom" id="Database Changes" order="16" />
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
       <window_info anchor="bottom" id="MyBatis Log" order="18" />
@@ -1152,246 +1063,84 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/dto/AdminParam.java">
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/sql/t_user.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/dto/LoginAdminParam.java">
+    <entry file="jar://E:/java/jdk1.8.0_151/src.zip!/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="-1160">
+          <caret line="375" column="18" selection-start-line="375" selection-start-column="18" selection-end-line="375" selection-end-column="18" />
           <folding>
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#15711#15712#0" expanded="true" />
+            <element signature="e#15747#15748#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/utils/ResultCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="161">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/utils/RestfulAccessDeniedHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="24" column="69" lean-forward="true" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/utils/RestAuthenticationEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/utils/CommonResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="68" column="41" lean-forward="true" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
-          <folding>
-            <element signature="e#1634#1635#0" expanded="true" />
-            <element signature="e#1682#1683#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/dto/UpdateAdminPasswordParam.java">
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IAdminService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="-532">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/BaseService.java">
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/AdminMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="209">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Role.java">
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="20" column="123" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/AdminRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-          <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/AdminRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IAdminRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/AdminRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IAdminPermissionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/AdminPermissionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="22" column="152" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="152" />
-          <folding>
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1382#1383#0" expanded="true" />
-            <element signature="e#1409#1410#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-            <element signature="e#1481#1482#0" expanded="true" />
-            <element signature="e#1513#1514#0" expanded="true" />
-            <element signature="e#1540#1541#0" expanded="true" />
-            <element signature="e#1581#1582#0" expanded="true" />
-            <element signature="e#1613#1614#0" expanded="true" />
-            <element signature="e#1643#1644#0" expanded="true" />
-            <element signature="e#1669#1670#0" expanded="true" />
-            <element signature="e#1707#1708#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1800#1801#0" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1881#1882#0" expanded="true" />
-            <element signature="e#1916#1917#0" expanded="true" />
-            <element signature="e#1949#1950#0" expanded="true" />
-            <element signature="e#1999#2000#0" expanded="true" />
-            <element signature="e#2043#2044#0" expanded="true" />
-            <element signature="e#2075#2076#0" expanded="true" />
-            <element signature="e#2102#2103#0" expanded="true" />
-            <element signature="e#2143#2144#0" expanded="true" />
-            <element signature="e#2175#2176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/AdminPermissionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/AdminPermission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/test/java/xiongjunmiao/top/Website/service/IAdminServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="273">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1400,255 +1149,343 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/AdminRoleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/RoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/AdminPermissionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/component/DynamicAccessDecisionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/AdminDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.2.RELEASE/spring-security-core-5.2.2.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-supportes-parent/Website-scurity-parent/Website-scurity-service/src/main/java/xiongjunmiao/top/Website/component/JwtAuthenticationTokenFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/AdminMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/AdminMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/MenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IAdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/ResourceMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-supportes-parent/Website-eureka-server/src/main/java/xiongjunmiao/top/Website/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2510">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/java/jdk1.8.0_151/src.zip!/java/lang/RuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.2.RELEASE/spring-security-core-5.2.2.RELEASE.jar!/org/springframework/security/core/AuthenticationException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.2.RELEASE/spring-security-core-5.2.2.RELEASE.jar!/org/springframework/security/core/userdetails/UsernameNotFoundException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-          <folding>
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/ResourceMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IPermissionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/PermissionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/PermissionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/controller/PermissionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="140">
+          <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/component/DynamicSecurityFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/config/TikSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="224">
+          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/component/JwtAuthenticationTokenFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
+        <state relative-caret-position="60">
           <caret line="40" column="44" lean-forward="true" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/PermissionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/jwtsecurity/t_admin.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/AdminServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="868">
-          <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+        <state relative-caret-position="88">
+          <caret line="102" column="51" selection-start-line="102" selection-start-column="51" selection-end-line="102" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#login#0;class#AdminServiceImpl#0" />
-            <element signature="method#register#0;class#AdminServiceImpl#0" />
             <element signature="method#updatePassword#0;class#AdminServiceImpl#0" />
+            <element signature="method#selectMenuByAdminId#0;class#AdminServiceImpl#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/AdminRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/webtokenFilter/WebTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/security/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-761">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/webtokenFilter/request/UserInfoUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1265">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/webtokenFilter/request/RequestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/sensitivefilterutils/AsFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/sensitivefilterutils/AsRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/service/Impl/AppUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/RepeatWebMvcConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/SameUrlDataInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/src/main/java/xiongjunmiao/top/Website/repeat/RepeatSubmitInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-product-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-product-service/src/main/java/xiongjunmiao/top/Website/config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="35" column="21" selection-start-line="30" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-product-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/Configration/FileWebMvcComfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/scheduling/MyScheduling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/config/CommentSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/service/IFileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-product-service/src/main/resources/xiongjunmiao/top/Website/mapper/FileMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-product-service/src/main/java/xiongjunmiao/top/Website/config/FileConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/config/FileConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-comment-service/src/main/java/xiongjunmiao/top/Website/service/impl/FileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/PicsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IPicsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="70" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/mapper/GoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/PicsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Pics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/PicsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/AdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/Impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/java/xiongjunmiao/top/Website/service/IGoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-interface/src/main/java/xiongjunmiao/top/Website/domain/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2268">
+          <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/main/resources/xiongjunmiao/top/Website/mapper/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
+          <folding>
+            <element signature="e#1827#2026#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website-comment-parent/Website-tik-service/src/test/java/xiongjunmiao/top/Website/service/IAdminServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1704,7 +1541,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Website-scurity-interface</last-edited>
+          <last-edited>Website-tik-interface</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

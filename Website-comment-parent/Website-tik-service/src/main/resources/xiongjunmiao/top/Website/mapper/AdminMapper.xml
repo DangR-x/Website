@@ -64,7 +64,10 @@
         delete from t_admin where id=#{id}
     </delete>
 
-    <insert id="insert" parameterType="admin" keyProperty="id" useGeneratedKeys="true">
+    <insert id="insert" parameterType="admin" >
+        <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Long">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
         insert into t_admin (
         username,
         password,

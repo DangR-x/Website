@@ -55,11 +55,8 @@ public class AdminController {
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     @ResponseBody
     public CommonResult<Admin> register(@RequestBody AdminParam AdminParam, BindingResult result) {
-        Admin admin = adminService.register(AdminParam);
-        if (admin == null) {
-            CommonResult.failed();
-        }
-        return CommonResult.success(admin);
+        CommonResult register = adminService.register(AdminParam);
+        return register;
     }
 
     //获取当前登录用户信息

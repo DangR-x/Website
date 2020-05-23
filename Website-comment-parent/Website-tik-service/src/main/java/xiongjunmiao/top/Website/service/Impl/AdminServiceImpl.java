@@ -14,6 +14,7 @@ import org.springframework.util.StringUtils;
 import xiongjunmiao.top.Website.domain.*;
 import xiongjunmiao.top.Website.dto.AdminParam;
 import xiongjunmiao.top.Website.dto.UpdateAdminPasswordParam;
+import xiongjunmiao.top.Website.jwtsecurity.utils.CommonResult;
 import xiongjunmiao.top.Website.jwtsecurity.utils.JwtTokenUtil;
 import xiongjunmiao.top.Website.mapper.AdminMapper;
 import xiongjunmiao.top.Website.mapper.ResourceMapper;
@@ -84,14 +85,14 @@ public class AdminServiceImpl implements IAdminService {
 
     //注册
     @Override
-    public Admin register(AdminParam adminParam) {
+    public CommonResult register(AdminParam adminParam) {
         Admin admin = new Admin();
         BeanUtils.copyProperties(adminParam,admin);
         admin.setCreateTime(new Date());
         admin.setStatus(1);
         Admin userName = selectByUserName(admin.getUsername());
         if(userName != null){
-            return null;
+            return CommonResult.failed("用户名已被占用!");
         }
         String encode = passwordEncoder.encode(admin.getPassword());
         admin.setPassword(encode);
@@ -99,8 +100,11 @@ public class AdminServiceImpl implements IAdminService {
             adminMapper.insert(admin);
         } catch (Exception e) {
             e.printStackTrace();
+            return CommonResult.failed("注册失败请联系管理员!");
         }
-        return admin;
+        AdminRole adminRole = new AdminRole(admin.getId(),5L);
+        adminRoleService.insert(adminRole);
+        return CommonResult.success(admin);
     }
     //刷新token
     @Override

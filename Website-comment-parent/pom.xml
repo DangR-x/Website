@@ -16,6 +16,8 @@
         <module>Website-comment-service</module>
         <module>Website-tik-interface</module>
         <module>Website-tik-service</module>
+        <module>Website-product-interface</module>
+        <module>Website-product-service</module>
     </modules>
     
 

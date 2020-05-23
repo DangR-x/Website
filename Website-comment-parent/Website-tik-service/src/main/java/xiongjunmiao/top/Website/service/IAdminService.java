@@ -4,9 +4,9 @@ package xiongjunmiao.top.Website.service;
 import xiongjunmiao.top.Website.domain.Admin;
 import xiongjunmiao.top.Website.domain.AdminDetails;
 import xiongjunmiao.top.Website.domain.Menu;
-import xiongjunmiao.top.Website.domain.Role;
 import xiongjunmiao.top.Website.dto.AdminParam;
 import xiongjunmiao.top.Website.dto.UpdateAdminPasswordParam;
+import xiongjunmiao.top.Website.jwtsecurity.utils.CommonResult;
 
 
 import java.io.Serializable;
@@ -34,7 +34,7 @@ public interface IAdminService {
     List<Admin> selectAll();
     Admin selectByUserName(String name);
     AdminDetails loadUserByUsername(String name);
-    Admin register(AdminParam admin);
+    CommonResult register(AdminParam admin);
     String refreshToken(String oldtoken);
     int updatePassword(UpdateAdminPasswordParam updateAdminPasswordParam);
     int updatePermission(Long adminId,List<Long> permissionIds);

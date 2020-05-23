@@ -12,8 +12,8 @@ public class AdminRole {
     public AdminRole() {
     }
 
-    public AdminRole(Long id, Long adminId, Long roleId) {
-        this.id = id;
+    public AdminRole(Long adminId, Long roleId) {
+
         this.adminId = adminId;
         this.roleId = roleId;
     }

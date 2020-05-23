@@ -11,6 +11,11 @@
 
     <artifactId>Website-tik-service</artifactId>
     <dependencies>
+        <!--<dependency>-->
+            <!--<groupId>xiongjunmiao.top</groupId>-->
+            <!--<artifactId>Website-product-service</artifactId>-->
+            <!--<version>1.0-SNAPSHOT</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>xiongjunmiao.top</groupId>
             <artifactId>Website-tik-interface</artifactId>
