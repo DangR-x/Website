@@ -13,7 +13,7 @@ public class Goods {
     private Long id;
     //售出后
     private String afterSale;
-    //商品种类
+    //商品种类分类
     private Long categoryId;
     //佣金
     private BigDecimal commission;
@@ -34,7 +34,7 @@ public class Goods {
     //是否砍价
     private boolean kanjia;
     //砍价价格
-    private String kanjiaPrice;
+    private BigDecimal kanjiaPrice;
     //活动限制
     private boolean limitation;
     //物流
@@ -44,7 +44,7 @@ public class Goods {
     //是否秒杀
     private boolean miaosha;
     //最少售价
-    private String minPrice;
+    private BigDecimal minPrice;
     //最低得分
     private Integer minScore;
     //商品名称
@@ -58,7 +58,7 @@ public class Goods {
     //售出数量
     private Integer numberSells;
     //上线售价
-    private String originalPrice;
+    private BigDecimal originalPrice;
     //排序
     private Integer paixu;
     //图片
@@ -66,7 +66,7 @@ public class Goods {
     //是否拼团
     private boolean pingtuan;
     //拼团价格
-    private String pingtuanPrice;
+    private BigDecimal pingtuanPrice;
     //推荐
     private Integer recommendStatus;
     //推荐描述

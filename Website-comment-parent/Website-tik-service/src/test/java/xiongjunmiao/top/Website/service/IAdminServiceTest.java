@@ -42,11 +42,10 @@ public class IAdminServiceTest {
     @Test
     public void Test8(){
         Goods goods = goodsService.selectById(2L);
-        goods.setCommission(new BigDecimal("6.364"));
-        goodsService.updateById(goods);
-
-
-
+        goods.setKanjia(true);
+        //System.out.println(goods.isKanjia());
+//        goods.setCommission(new BigDecimal("6.36"));
+       goodsService.updateById(goods);
 
     }
 

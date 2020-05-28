@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-interface/Website-Login-interface.iml" filepath="$PROJECT_DIR$/Website-Login-parent/Website-Login-interface/Website-Login-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-parent.iml" filepath="$PROJECT_DIR$/Website-Login-parent/Website-Login-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-Login-parent/Website-Login-service/Website-Login-service.iml" filepath="$PROJECT_DIR$/Website-Login-parent/Website-Login-service/Website-Login-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-tool-parent/Website-Media-interface/Website-Media-interface.iml" filepath="$PROJECT_DIR$/Website-tool-parent/Website-Media-interface/Website-Media-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Website-tool-parent/Website-Media-service/Website-Media-service.iml" filepath="$PROJECT_DIR$/Website-tool-parent/Website-Media-service/Website-Media-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-tool-parent/Website-MongDB-interface/Website-MongDB-interface.iml" filepath="$PROJECT_DIR$/Website-tool-parent/Website-MongDB-interface/Website-MongDB-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-tool-parent/Website-MongDB-service/Website-MongDB-service.iml" filepath="$PROJECT_DIR$/Website-tool-parent/Website-MongDB-service/Website-MongDB-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Website-basic-parent/Website-basic-parent.iml" filepath="$PROJECT_DIR$/Website-basic-parent/Website-basic-parent.iml" />

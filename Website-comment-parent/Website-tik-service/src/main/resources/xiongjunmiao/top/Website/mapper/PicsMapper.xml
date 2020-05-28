@@ -10,6 +10,12 @@
         <result column="admin_id" jdbcType="INTEGER" property="adminId" />
     </resultMap>
 
+
+    <select id="getPicsByGoodsId" resultMap="BaseResultMap">
+        select * from t_pics where goods_id=#{goodsId}
+    </select>
+
+
     <insert id="insert" parameterType="pics" keyProperty="id" useGeneratedKeys="true" >
         insert into t_pics (
             goods_id,

@@ -16,23 +16,23 @@
         <result column="got_score_type" jdbcType="INTEGER" property="gotScoreType" />
         <result column="hidden" jdbcType="INTEGER" property="hidden" />
         <result column="kanjia" jdbcType="TINYINT" property="kanjia" />
-        <result column="kanjia_price" jdbcType="VARCHAR" property="kanjiaPrice" />
+        <result column="kanjia_price" jdbcType="DECIMAL" property="kanjiaPrice" />
         <result column="limitation" jdbcType="TINYINT" property="limitation" />
         <result column="logistics_id" jdbcType="BIGINT" property="logisticsId" />
         <result column="max_coupons" jdbcType="INTEGER" property="maxCoupons" />
         <result column="miaosha" jdbcType="TINYINT" property="miaosha" />
-        <result column="min_price" jdbcType="VARCHAR" property="minPrice" />
+        <result column="min_price" jdbcType="DECIMAL" property="minPrice" />
         <result column="min_score" jdbcType="INTEGER" property="minScore" />
         <result column="name" jdbcType="VARCHAR" property="name" />
         <result column="number_fav" jdbcType="INTEGER" property="numberFav" />
         <result column="number_goodrequtation" jdbcType="INTEGER" property="numberGoodrequtation" />
         <result column="number_orders" jdbcType="INTEGER" property="numberOrders" />
         <result column="number_sells" jdbcType="INTEGER" property="numberSells" />
-        <result column="original_price" jdbcType="VARCHAR" property="originalPrice" />
+        <result column="original_price" jdbcType="DECIMAL" property="originalPrice" />
         <result column="paixu" jdbcType="INTEGER" property="paixu" />
         <result column="pic" jdbcType="VARCHAR" property="pic" />
         <result column="pingtuan" jdbcType="TINYINT" property="pingtuan" />
-        <result column="pingtuan_price" jdbcType="VARCHAR" property="pingtuanPrice" />
+        <result column="pingtuan_price" jdbcType="DECIMAL" property="pingtuanPrice" />
         <result column="recommend_status" jdbcType="INTEGER" property="recommendStatus" />
         <result column="recommend_statusstr" jdbcType="VARCHAR" property="recommendStatusstr" />
         <result column="sell_end" jdbcType="TINYINT" property="sellEnd" />

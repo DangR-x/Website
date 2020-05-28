@@ -10,7 +10,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * Created by J on 2020/5/23 15:47
+ *
  */
 @Service
 public class PicsServiceImpl implements IPicsService {
@@ -40,5 +40,11 @@ public class PicsServiceImpl implements IPicsService {
     @Override
     public List<Pics> selectAll() {
         return picsMapper.selectAll();
+    }
+
+
+    @Override
+    public List<Pics> getPicsByGoodsId(Long goodsId) {
+        return picsMapper.getPicsByGoodsId(goodsId);
     }
 }

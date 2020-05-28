@@ -20,6 +20,8 @@
         <module>Website-rabbitMQ-service</module>
         <module>Website-elasticSearch-interface</module>
         <module>Website-elasticSearch-service</module>
+        <module>Website-Media-interface</module>
+        <module>Website-Media-service</module>
     </modules>
 
 

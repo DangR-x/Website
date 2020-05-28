@@ -14,6 +14,8 @@
         <module name="Website-eureka-server" />
         <module name="Website-Login-interface" />
         <module name="Website-Login-service" />
+        <module name="Website-Media-interface" />
+        <module name="Website-Media-service" />
         <module name="Website-MongDB-interface" />
         <module name="Website-MongDB-service" />
         <module name="Website-product-interface" />
@@ -44,6 +46,8 @@
       <module name="Website-Login-interface" target="1.8" />
       <module name="Website-Login-parent" target="1.8" />
       <module name="Website-Login-service" target="1.8" />
+      <module name="Website-Media-interface" target="1.8" />
+      <module name="Website-Media-service" target="1.8" />
       <module name="Website-MongDB-interface" target="1.8" />
       <module name="Website-MongDB-service" target="1.8" />
       <module name="Website-product-interface" target="1.8" />

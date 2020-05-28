@@ -37,7 +37,8 @@ secure:
       - /**/*.ico
       - /admin/login
       - /admin/register
-      - /admin/info
+      - /admin/info.
+      - /product/**
 
 logging:
   level:
