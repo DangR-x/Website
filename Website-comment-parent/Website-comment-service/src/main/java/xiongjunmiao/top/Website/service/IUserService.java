@@ -1,7 +1,6 @@
 package xiongjunmiao.top.Website.service;
 
 
-import org.springframework.security.core.userdetails.UserDetails;
 import xiongjunmiao.top.Website.domain.User;
 
 import java.io.Serializable;
@@ -17,9 +16,6 @@ public interface IUserService {
     void updateById(User t);
     User selectById(Serializable id);
     List<User> selectAll();
-    /**
-     * 获取用户信息
-     */
-    UserDetails loadUserByUsername(String username);
+
 
 }

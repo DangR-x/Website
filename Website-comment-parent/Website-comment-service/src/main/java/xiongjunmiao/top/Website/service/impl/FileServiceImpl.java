@@ -6,7 +6,6 @@ import xiongjunmiao.top.Website.service.IFileService;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.OutputStream;
 
 /**
  * Created by J on 2020/5/19 15:12
@@ -27,7 +26,7 @@ public class FileServiceImpl implements IFileService {
             e.printStackTrace();
         }
 
-        String images = request.getServletContext().getRealPath("images");
+        String images = request.getServletContext().getRealPath("public/images");
 
 
     }

@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 
 /**
- * Created by J on 2020/5/19 15:08
+ *
  */
 @RestController
 @RequestMapping("/file")

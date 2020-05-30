@@ -7,14 +7,18 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import xiongjunmiao.top.Website.CommentServiceApplication;
 import xiongjunmiao.top.Website.controller.CommentController;
-import xiongjunmiao.top.Website.domain.Comment;
 import xiongjunmiao.top.Website.domain.User;
 import xiongjunmiao.top.Website.mapper.CommentMapper;
 import xiongjunmiao.top.Website.service.impl.CommentServiceImpl;
+import xiongjunmiao.top.Website.service.impl.FileServiceImpl;
 
+import javax.servlet.http.HttpServletRequest;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
 import java.util.List;
+import java.util.Properties;
 
 
 @RunWith(SpringRunner.class)
@@ -31,16 +35,31 @@ public class ICommentServiceTest {
     @Autowired
     private IUserService userService;
 
+    @Autowired
+    private FileServiceImpl fileService;
 
+    @Autowired
+    private HttpServletRequest request;
 
     @Test
     public void test01(){
-        Comment comment = commentMapper.selectById(1L);
-        logger.trace(comment.toString());
-        logger.debug(comment.toString());
-        logger.info(comment.toString());
-        logger.warn(comment.toString());
-        logger.error(comment.toString());
+
+        try {
+            Properties properties = new Properties();
+            properties.setProperty("name","haha");
+            properties.setProperty("age","12");
+            properties.setProperty("sex","1");
+            //E:\xiong\xiongjunmiao\Website\Website-comment-parent\Website-comment-service\src\main\resources\WEB-INF\images
+            //E:\xiong\xiongjunmiao\Website\Website-comment-parent\Website-comment-service\target
+            String images = request.getServletContext().getRealPath("");
+            System.out.println(images);
+            File file = new File(images+"/test.propertie");
+            OutputStream fileOutputStream = new FileOutputStream(file);
+            properties.store(fileOutputStream,"xiongjunmiao");
+            fileOutputStream.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
     @Test
     public void test02(){
